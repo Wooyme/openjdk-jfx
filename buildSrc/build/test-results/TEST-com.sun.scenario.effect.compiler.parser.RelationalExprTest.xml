@@ -1,0 +1,11 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<testsuite name="com.sun.scenario.effect.compiler.parser.RelationalExprTest" tests="5" failures="0" errors="0" timestamp="2019-07-25T13:04:43" hostname="wooyme" time="0.003">
+  <properties/>
+  <testcase name="oneGtEq" classname="com.sun.scenario.effect.compiler.parser.RelationalExprTest" time="0.0"/>
+  <testcase name="oneLtEq" classname="com.sun.scenario.effect.compiler.parser.RelationalExprTest" time="0.0"/>
+  <testcase name="notARelationalExpression" classname="com.sun.scenario.effect.compiler.parser.RelationalExprTest" time="0.0"/>
+  <testcase name="oneGt" classname="com.sun.scenario.effect.compiler.parser.RelationalExprTest" time="0.0"/>
+  <testcase name="oneLt" classname="com.sun.scenario.effect.compiler.parser.RelationalExprTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,25 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<testsuite name="com.sun.scenario.effect.compiler.parser.MultExprTest" tests="19" failures="0" errors="0" timestamp="2019-07-25T13:04:43" hostname="wooyme" time="0.047">
+  <properties/>
+  <testcase name="notAMultiplicativeExpression" classname="com.sun.scenario.effect.compiler.parser.MultExprTest" time="0.001"/>
+  <testcase name="oneDivision" classname="com.sun.scenario.effect.compiler.parser.MultExprTest" time="0.005"/>
+  <testcase name="expressionCombination" classname="com.sun.scenario.effect.compiler.parser.MultExprTest" time="0.006"/>
+  <testcase name="oneMultiplication" classname="com.sun.scenario.effect.compiler.parser.MultExprTest" time="0.001"/>
+  <testcase name="notAUnaryExpression" classname="com.sun.scenario.effect.compiler.parser.MultExprTest" time="0.001"/>
+  <testcase name="preDecrement" classname="com.sun.scenario.effect.compiler.parser.MultExprTest" time="0.0"/>
+  <testcase name="postDecrement" classname="com.sun.scenario.effect.compiler.parser.MultExprTest" time="0.001"/>
+  <testcase name="positive" classname="com.sun.scenario.effect.compiler.parser.MultExprTest" time="0.003"/>
+  <testcase name="preIncrement" classname="com.sun.scenario.effect.compiler.parser.MultExprTest" time="0.0"/>
+  <testcase name="negative" classname="com.sun.scenario.effect.compiler.parser.MultExprTest" time="0.001"/>
+  <testcase name="postIncrement" classname="com.sun.scenario.effect.compiler.parser.MultExprTest" time="0.001"/>
+  <testcase name="negated" classname="com.sun.scenario.effect.compiler.parser.MultExprTest" time="0.005"/>
+  <testcase name="variable" classname="com.sun.scenario.effect.compiler.parser.MultExprTest" time="0.001"/>
+  <testcase name="notAPrimaryExpression" classname="com.sun.scenario.effect.compiler.parser.MultExprTest" time="0.001"/>
+  <testcase name="bracketted" classname="com.sun.scenario.effect.compiler.parser.MultExprTest" time="0.0"/>
+  <testcase name="boolLiteralF" classname="com.sun.scenario.effect.compiler.parser.MultExprTest" time="0.001"/>
+  <testcase name="boolLiteralT" classname="com.sun.scenario.effect.compiler.parser.MultExprTest" time="0.004"/>
+  <testcase name="intLiteral" classname="com.sun.scenario.effect.compiler.parser.MultExprTest" time="0.0"/>
+  <testcase name="floatLiteral" classname="com.sun.scenario.effect.compiler.parser.MultExprTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
