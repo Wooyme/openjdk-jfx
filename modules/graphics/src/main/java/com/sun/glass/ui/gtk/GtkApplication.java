@@ -119,8 +119,13 @@ final class GtkApplication extends Application implements InvokeLaterDispatcher.
             eventProc = result == null ? 0 : result;
         }
 
-        final boolean disableGrab = AccessController.doPrivileged((PrivilegedAction<Boolean>) () -> Boolean.getBoolean("sun.awt.disablegrab") ||
-               Boolean.getBoolean("glass.disableGrab"));
+        final boolean disableGrab = AccessController.doPrivileged(new PrivilegedAction<Boolean>() {
+            @Override
+            public Boolean run() {
+                return Boolean.getBoolean("sun.awt.disablegrab") ||
+                        Boolean.getBoolean("glass.disableGrab");
+            }
+        });
 
         _init(eventProc, disableGrab);
     }
@@ -129,7 +134,12 @@ final class GtkApplication extends Application implements InvokeLaterDispatcher.
     protected void runLoop(final Runnable launchable) {
         // Embedded in SWT, with shared event thread
         final boolean isEventThread = AccessController
-            .doPrivileged((PrivilegedAction<Boolean>) () -> Boolean.getBoolean("javafx.embed.isEventThread"));
+            .doPrivileged(new PrivilegedAction<Boolean>() {
+                @Override
+                public Boolean run() {
+                    return Boolean.getBoolean("javafx.embed.isEventThread");
+                }
+            });
         
         if (isEventThread) {
             init();
@@ -139,13 +149,26 @@ final class GtkApplication extends Application implements InvokeLaterDispatcher.
         }
         
         final boolean noErrorTrap = AccessController
-            .doPrivileged((PrivilegedAction<Boolean>) () -> Boolean.getBoolean("glass.noErrorTrap"));
+            .doPrivileged(new PrivilegedAction<Boolean>() {
+                @Override
+                public Boolean run() {
+                    return Boolean.getBoolean("glass.noErrorTrap");
+                }
+            });
         
         final Thread toolkitThread =
-            AccessController.doPrivileged((PrivilegedAction<Thread>) () -> new Thread(() -> {
-                init();
-                _runLoop(launchable, noErrorTrap);
-            }, "GtkNativeMainLoopThread"));
+            AccessController.doPrivileged(new PrivilegedAction<Thread>() {
+                @Override
+                public Thread run() {
+                    return new Thread(new Runnable() {
+                        @Override
+                        public void run() {
+                            GtkApplication.this.init();
+                            GtkApplication.this._runLoop(launchable, noErrorTrap);
+                        }
+                    }, "GtkNativeMainLoopThread");
+                }
+            });
         setEventThread(toolkitThread);
         toolkitThread.start();
     }
@@ -178,9 +201,12 @@ final class GtkApplication extends Application implements InvokeLaterDispatcher.
             invokeLaterDispatcher.invokeAndWait(runnable);
         } else {
             final CountDownLatch latch = new CountDownLatch(1);
-            submitForLaterInvocation(() -> {
-                if (runnable != null) runnable.run();
-                latch.countDown();
+            submitForLaterInvocation(new Runnable() {
+                @Override
+                public void run() {
+                    if (runnable != null) runnable.run();
+                    latch.countDown();
+                }
             });
             try {
                 latch.await();
@@ -349,5 +375,6 @@ final class GtkApplication extends Application implements InvokeLaterDispatcher.
 
     @Override
     protected native int _getKeyCodeForChar(char c);
+
 
 }

@@ -61,14 +61,14 @@ setupTools("linux_tools",
     { propFile ->
         ByteArrayOutputStream results = new ByteArrayOutputStream();
         exec {
-            commandLine("pkg-config", "--cflags", "gtk+-2.0", "gthread-2.0", "xtst");
+            commandLine("pkg-config", "--cflags", "gtk+-2.0", "gthread-2.0", "xtst", "appindicator3-0.1");
             setStandardOutput(results);
         }
         propFile << "cflags=" << results.toString().trim() << "\n";
 
         results = new ByteArrayOutputStream();
         exec {
-            commandLine "pkg-config", "--libs", "gtk+-2.0", "gthread-2.0", "xtst"
+            commandLine "pkg-config", "--libs", "gtk+-2.0", "gthread-2.0", "xtst", "appindicator3-0.1"
             standardOutput = results
         }
         propFile << "libs=" << results.toString().trim();
@@ -138,7 +138,7 @@ LINUX.glass.javahInclude = [
     "com/sun/glass/ui/gtk/*"]
 LINUX.glass.nativeSource = file("modules/graphics/src/main/native-glass/gtk")
 LINUX.glass.compiler = compiler
-LINUX.glass.ccFlags = [ccFlags, "-Werror"].flatten()
+LINUX.glass.ccFlags = [ccFlags].flatten()
 LINUX.glass.linker = linker
 LINUX.glass.linkFlags = [linkFlags].flatten()
 LINUX.glass.lib = "glass"

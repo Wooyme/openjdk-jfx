@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<testsuite name="com.sun.scenario.effect.compiler.lexer.WhitespaceTest" tests="5" failures="0" errors="0" timestamp="2019-07-25T13:04:44" hostname="wooyme" time="0.001">
+<testsuite name="com.sun.scenario.effect.compiler.lexer.WhitespaceTest" tests="5" failures="0" errors="0" timestamp="2019-08-02T04:26:26" hostname="wooyme" time="0.001">
   <properties/>
-  <testcase name="tab" classname="com.sun.scenario.effect.compiler.lexer.WhitespaceTest" time="0.001"/>
+  <testcase name="tab" classname="com.sun.scenario.effect.compiler.lexer.WhitespaceTest" time="0.0"/>
   <testcase name="space" classname="com.sun.scenario.effect.compiler.lexer.WhitespaceTest" time="0.0"/>
   <testcase name="carriageReturn" classname="com.sun.scenario.effect.compiler.lexer.WhitespaceTest" time="0.0"/>
   <testcase name="nonSpace" classname="com.sun.scenario.effect.compiler.lexer.WhitespaceTest" time="0.0"/>

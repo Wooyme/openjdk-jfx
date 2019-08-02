@@ -23,10 +23,9 @@
  * questions.
  */
 #include "glass_general.h"
-
+#include <stdio.h>
 #include <jni.h>
 #include <gtk/gtk.h>
-
 char const * const GDK_WINDOW_DATA_CONTEXT = "glass_window_context";
 
 jclass jStringCls;
@@ -367,12 +366,11 @@ JNI_OnLoad(JavaVM *jvm, void *reserved)
 //        env->CallStaticVoidMethod(clazz, mid_unlock);
 //    } else {
         env->ExceptionClear();
-        init_threads();
+        //init_threads();
 //    }
 
-    gdk_threads_enter();
+    //gdk_threads_enter();
     gtk_init(NULL, NULL);
-
     return JNI_VERSION_1_6;
 }
 

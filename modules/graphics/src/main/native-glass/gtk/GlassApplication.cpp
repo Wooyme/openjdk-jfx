@@ -31,6 +31,7 @@
 
 #include <cstdlib>
 #include <iostream>
+#include <stdio.h>
 #include <com_sun_glass_ui_Application.h>
 #include <com_sun_glass_ui_gtk_GtkApplication.h>
 #include <com_sun_glass_events_WindowEvent.h>
@@ -44,7 +45,6 @@
 #include "glass_dnd.h"
 #include "glass_window.h"
 #include "glass_screen.h"
-
 GdkEventFunc process_events_prev;
 static void process_events(GdkEvent*, gpointer);
 
@@ -64,6 +64,7 @@ static gboolean call_runnable (gpointer data)
 }
 
 extern "C" {
+
 
 /*
  * Class:     com_sun_glass_ui_gtk_GtkApplication

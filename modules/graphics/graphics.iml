@@ -13,7 +13,7 @@
       <sourceFolder url="file://$MODULE_DIR$/build/resources/jsl-decora" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/build/resources/jsl-prism" isTestSource="false" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="graalvm19.1.0" jdkType="JavaSDK" />
     <orderEntry type="module-library">
       <library name="junit4">
         <CLASSES>
