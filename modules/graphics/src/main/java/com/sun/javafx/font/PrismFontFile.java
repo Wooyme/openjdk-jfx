@@ -1236,7 +1236,7 @@ public abstract class PrismFontFile implements FontResource, FontConstants {
         return metrics;
     }
 
-    byte[] getTableBytes(int tag) {
+    public byte[] getTableBytes(int tag) {
         Buffer buffer = readTable(tag);
         byte[] table = null;
         if(buffer != null){

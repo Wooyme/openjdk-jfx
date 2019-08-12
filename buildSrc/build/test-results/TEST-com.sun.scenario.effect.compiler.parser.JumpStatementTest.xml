@@ -1,11 +1,11 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<testsuite name="com.sun.scenario.effect.compiler.parser.JumpStatementTest" tests="6" failures="0" errors="0" timestamp="2019-08-02T04:26:25" hostname="wooyme" time="0.009">
+<testsuite name="com.sun.scenario.effect.compiler.parser.JumpStatementTest" tests="6" failures="0" errors="0" timestamp="2019-08-07T09:51:07" hostname="wooyme" time="0.014">
   <properties/>
-  <testcase name="returnEmpty" classname="com.sun.scenario.effect.compiler.parser.JumpStatementTest" time="0.0"/>
+  <testcase name="returnEmpty" classname="com.sun.scenario.effect.compiler.parser.JumpStatementTest" time="0.001"/>
   <testcase name="brk" classname="com.sun.scenario.effect.compiler.parser.JumpStatementTest" time="0.001"/>
-  <testcase name="cont" classname="com.sun.scenario.effect.compiler.parser.JumpStatementTest" time="0.0"/>
+  <testcase name="cont" classname="com.sun.scenario.effect.compiler.parser.JumpStatementTest" time="0.001"/>
   <testcase name="returnExpr" classname="com.sun.scenario.effect.compiler.parser.JumpStatementTest" time="0.001"/>
-  <testcase name="notAJump" classname="com.sun.scenario.effect.compiler.parser.JumpStatementTest" time="0.002"/>
+  <testcase name="notAJump" classname="com.sun.scenario.effect.compiler.parser.JumpStatementTest" time="0.0"/>
   <testcase name="discard" classname="com.sun.scenario.effect.compiler.parser.JumpStatementTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

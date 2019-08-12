@@ -42,6 +42,7 @@ public class Affine3D extends AffineBase {
     private double mzt;
 
     public Affine3D() {
+
         mxx = myy = mzz = 1.0;
 //        mxy = mxz = mxt = 0.0;  /* Not needed. */
 //        myx = myz = myt = 0.0;  /* Not needed. */
@@ -50,6 +51,7 @@ public class Affine3D extends AffineBase {
     }
 
     public Affine3D(BaseTransform transform) {
+
         setTransform(transform);
     }
 
@@ -57,6 +59,7 @@ public class Affine3D extends AffineBase {
                     double myx, double myy, double myz, double myt,
                     double mzx, double mzy, double mzz, double mzt)
     {
+
         this.mxx = mxx;
         this.mxy = mxy;
         this.mxz = mxz;
@@ -76,6 +79,7 @@ public class Affine3D extends AffineBase {
     }
 
     public Affine3D(Affine3D other) {
+
         this.mxx = other.mxx;
         this.mxy = other.mxy;
         this.mxz = other.mxz;
@@ -153,6 +157,7 @@ public class Affine3D extends AffineBase {
     }
 
     public void setTransform(BaseTransform transform) {
+
         this.mxx = transform.getMxx();
         this.mxy = transform.getMxy();
         this.mxz = transform.getMxz();
@@ -172,6 +177,7 @@ public class Affine3D extends AffineBase {
                              double myx, double myy, double myz, double myt,
                              double mzx, double mzy, double mzz, double mzt)
     {
+
         this.mxx = mxx;
         this.mxy = mxy;
         this.mxz = mxz;
@@ -226,6 +232,7 @@ public class Affine3D extends AffineBase {
     }
 
     public void setToScale(double sx, double sy, double sz) {
+
         this.mxx = sx;
         this.mxy = 0.0;
         this.mxz = 0.0;
@@ -272,6 +279,7 @@ public class Affine3D extends AffineBase {
     }
 
     public void setToRotation(double theta, double axisX, double axisY, double axisZ) {
+
         double mag = Math.sqrt(axisX * axisX + axisY * axisY + axisZ * axisZ);
 
         if (almostZero(mag)) {

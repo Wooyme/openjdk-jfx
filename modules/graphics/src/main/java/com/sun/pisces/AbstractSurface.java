@@ -27,7 +27,7 @@ package com.sun.pisces;
 
 public abstract class AbstractSurface implements Surface {
     
-    private long nativePtr = 0L;
+    public long nativePtr = 0L;
     private int width;
     private int height;
 

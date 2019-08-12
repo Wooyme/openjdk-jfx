@@ -120,7 +120,7 @@ public class OpenPiscesPrismUtils {
     {
         Renderer r = antialiasedShape ? savedAARenderer : savedRenderer;
         PathConsumer2D pc2d = initRenderer(stroke, xform, rclip, p2d.getWindingRule(), r);
-
+        System.out.println(xform);
         float coords[] = p2d.getFloatCoordsNoClone();
         byte types[] = p2d.getCommandsNoClone();
         int nsegs = p2d.getNumCommands();

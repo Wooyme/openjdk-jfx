@@ -24,6 +24,7 @@
  */
 
 #include <jni.h>
+#include <stdio.h>
 #ifdef ANDROID_NDK
 #include <stddef.h>
 #include <time.h>
@@ -62,6 +63,7 @@
 
 #define CheckLen(env, a, len)                           \
     do {                                                \
+        printf("Len:%d\n",(*env)->GetArrayLength(env, a));\
         if ((*env)->GetArrayLength(env, a) < len) {     \
             Throw(env, AIOOBException, #a);             \
             return;                                     \
@@ -201,7 +203,6 @@ ALOG("[JVDBG]FPA1 %l -- %d ", getTimeNsec());
     CheckNPE(env, maskArray);
     CheckLen(env, boundsArray, 4);
     CheckLen(env, commandsArray, numCommands);
-
     (*env)->GetIntArrayRegion(env, boundsArray, 0, 4, bounds);
     coordSize = (*env)->GetArrayLength(env, coordsArray);
     Renderer_init(&renderer);
@@ -212,6 +213,7 @@ ALOG("[JVDBG]FPA1 %l -- %d ", getTimeNsec());
                                 mxx, mxy, mxt, myx, myy, myt);
     failure = feedConsumer(env, consumer,
                            coordsArray, coordSize, commandsArray, numCommands);
+    printf("feedConsumer\n");
     if (failure == NULL) {
         Renderer_getOutputBounds(&renderer, bounds);
         (*env)->SetIntArrayRegion(env, boundsArray, 0, 4, bounds);
@@ -232,6 +234,7 @@ ALOG("[JVDBG]FPA1 %l -- %d ", getTimeNsec());
                 }
             }
         }
+    printf("Run here\n");
     } else if (*failure != 0) {
         if (*failure == '[') {
             Throw(env, AIOOBException, failure + 1);

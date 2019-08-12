@@ -26,12 +26,45 @@
 package com.sun.javafx.font.directwrite;
 
 class DWRITE_GLYPH_RUN {
-    long fontFace;
-    float fontEmSize;
-    short glyphIndices;
-    float glyphAdvances;
-    float advanceOffset;
-    float ascenderOffset;
-    boolean isSideways;
-    int bidiLevel;
+    long fontFace = 0;
+    float fontEmSize = 0;
+    short glyphIndices = 0;
+    float glyphAdvances = 0;
+    float advanceOffset = 0;
+    float ascenderOffset = 0;
+    boolean isSideways = false;
+    int bidiLevel = 0;
+
+    public long getFontFace() {
+        return fontFace;
+    }
+
+    public float getAdvanceOffset() {
+        return advanceOffset;
+    }
+
+    public float getFontEmSize() {
+        return fontEmSize;
+    }
+
+    public float getGlyphAdvances() {
+        return glyphAdvances;
+    }
+
+    public float getAscenderOffset() {
+        return ascenderOffset;
+    }
+
+    public short getGlyphIndices() {
+        return glyphIndices;
+    }
+
+    public boolean isSideways() {
+        return isSideways;
+    }
+
+    public int getBidiLevel() {
+        return bidiLevel;
+    }
+
 }

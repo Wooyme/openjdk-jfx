@@ -1,8 +1,8 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<testsuite name="com.sun.scenario.effect.compiler.lexer.CommentTest" tests="3" failures="0" errors="0" timestamp="2019-08-02T04:26:26" hostname="wooyme" time="0.009">
+<testsuite name="com.sun.scenario.effect.compiler.lexer.CommentTest" tests="3" failures="0" errors="0" timestamp="2019-08-07T09:51:07" hostname="wooyme" time="0.003">
   <properties/>
   <testcase name="multilineComment" classname="com.sun.scenario.effect.compiler.lexer.CommentTest" time="0.001"/>
-  <testcase name="notAComment" classname="com.sun.scenario.effect.compiler.lexer.CommentTest" time="0.0"/>
+  <testcase name="notAComment" classname="com.sun.scenario.effect.compiler.lexer.CommentTest" time="0.001"/>
   <testcase name="comment" classname="com.sun.scenario.effect.compiler.lexer.CommentTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

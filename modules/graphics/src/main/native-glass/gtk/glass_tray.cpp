@@ -21,7 +21,7 @@ void _tray_menu_cb(void *item,struct tray_menu* data){
 
 }
 
-JNIEXPORT jlong JNICALL Java_com_sun_glass_ui_gtk_GtkTray_initTrayNative(JNIEnv *env, jobject jthis, jstring jicon){
+JNIEXPORT jlong JNICALL Java_com_sun_glass_ui_Tray_initTrayNative(JNIEnv *env, jobject jthis, jstring jicon){
     const char *icon = env->GetStringUTFChars(jicon, 0);
     env->GetJavaVM(&gVM);
     gThis = env->NewGlobalRef(jthis);
@@ -40,7 +40,7 @@ JNIEXPORT jlong JNICALL Java_com_sun_glass_ui_gtk_GtkTray_initTrayNative(JNIEnv 
     return (jlong)tray;
 }
 
-JNIEXPORT void JNICALL Java_com_sun_glass_ui_gtk_GtkTray_addMenuNative(JNIEnv *env, jobject jthis, jlong jpointer, jstring jtext, jint jid,jint is_update){
+JNIEXPORT void JNICALL Java_com_sun_glass_ui_Tray_addMenuNative(JNIEnv *env, jobject jthis, jlong jpointer, jstring jtext, jint jid,jint is_update){
     const char *text = env->GetStringUTFChars(jtext, 0);
     struct tray *tray = (struct tray*)jpointer;
     std::cout<<"Current Icon:"<<tray->icon<<std::endl;

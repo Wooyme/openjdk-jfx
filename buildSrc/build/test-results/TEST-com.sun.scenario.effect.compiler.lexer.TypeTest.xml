@@ -1,20 +1,20 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<testsuite name="com.sun.scenario.effect.compiler.lexer.TypeTest" tests="14" failures="0" errors="0" timestamp="2019-08-02T04:26:26" hostname="wooyme" time="0.027">
+<testsuite name="com.sun.scenario.effect.compiler.lexer.TypeTest" tests="14" failures="0" errors="0" timestamp="2019-08-07T09:51:07" hostname="wooyme" time="0.028">
   <properties/>
   <testcase name="floatVec2" classname="com.sun.scenario.effect.compiler.lexer.TypeTest" time="0.0"/>
   <testcase name="floatVec3" classname="com.sun.scenario.effect.compiler.lexer.TypeTest" time="0.0"/>
-  <testcase name="floatVec4" classname="com.sun.scenario.effect.compiler.lexer.TypeTest" time="0.0"/>
-  <testcase name="floatScalar" classname="com.sun.scenario.effect.compiler.lexer.TypeTest" time="0.0"/>
-  <testcase name="boolScalar" classname="com.sun.scenario.effect.compiler.lexer.TypeTest" time="0.0"/>
+  <testcase name="floatVec4" classname="com.sun.scenario.effect.compiler.lexer.TypeTest" time="0.001"/>
+  <testcase name="floatScalar" classname="com.sun.scenario.effect.compiler.lexer.TypeTest" time="0.001"/>
+  <testcase name="boolScalar" classname="com.sun.scenario.effect.compiler.lexer.TypeTest" time="0.002"/>
   <testcase name="intScalar" classname="com.sun.scenario.effect.compiler.lexer.TypeTest" time="0.0"/>
   <testcase name="notAType" classname="com.sun.scenario.effect.compiler.lexer.TypeTest" time="0.0"/>
-  <testcase name="sampler" classname="com.sun.scenario.effect.compiler.lexer.TypeTest" time="0.0"/>
+  <testcase name="sampler" classname="com.sun.scenario.effect.compiler.lexer.TypeTest" time="0.001"/>
   <testcase name="intVec2" classname="com.sun.scenario.effect.compiler.lexer.TypeTest" time="0.0"/>
   <testcase name="intVec3" classname="com.sun.scenario.effect.compiler.lexer.TypeTest" time="0.0"/>
-  <testcase name="intVec4" classname="com.sun.scenario.effect.compiler.lexer.TypeTest" time="0.005"/>
+  <testcase name="intVec4" classname="com.sun.scenario.effect.compiler.lexer.TypeTest" time="0.001"/>
   <testcase name="boolVec2" classname="com.sun.scenario.effect.compiler.lexer.TypeTest" time="0.0"/>
   <testcase name="boolVec3" classname="com.sun.scenario.effect.compiler.lexer.TypeTest" time="0.001"/>
-  <testcase name="boolVec4" classname="com.sun.scenario.effect.compiler.lexer.TypeTest" time="0.003"/>
+  <testcase name="boolVec4" classname="com.sun.scenario.effect.compiler.lexer.TypeTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

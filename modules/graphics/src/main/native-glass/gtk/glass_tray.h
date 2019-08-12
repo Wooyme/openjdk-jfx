@@ -78,7 +78,7 @@ extern "C" {
  * Method:    initTrayNative
  * Signature: ()J
  */
-JNIEXPORT jlong JNICALL Java_com_sun_glass_ui_gtk_GtkTray_initTrayNative
+JNIEXPORT jlong JNICALL Java_com_sun_glass_ui_Tray_initTrayNative
   (JNIEnv *, jobject,jstring);
 
 /*
@@ -86,7 +86,7 @@ JNIEXPORT jlong JNICALL Java_com_sun_glass_ui_gtk_GtkTray_initTrayNative
  * Method:    addMenuNative
  * Signature: (JLjava/lang/String;I)V
  */
-JNIEXPORT void JNICALL Java_com_sun_glass_ui_gtk_GtkTray_addMenuNative
+JNIEXPORT void JNICALL Java_com_sun_glass_ui_Tray_addMenuNative
   (JNIEnv *, jobject, jlong, jstring, jint, jint);
 
 #ifdef __cplusplus

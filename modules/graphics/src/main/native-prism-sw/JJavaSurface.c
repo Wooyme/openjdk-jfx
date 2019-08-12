@@ -22,9 +22,9 @@
  * or visit www.oracle.com if you need additional information or have any
  * questions.
  */
-
+#include <stdio.h>
 #include <JAbstractSurface.h>
-
+#include <stdlib.h>
 #include <PiscesUtil.h>
 #include <PiscesSysutils.h>
 #include <JNIUtil.h>

@@ -25,6 +25,8 @@
 
 package com.sun.prism.es2;
 
+import java.io.File;
+import java.io.FileInputStream;
 import java.io.InputStream;
 import java.util.Map;
 
@@ -299,14 +301,15 @@ public class ES2ResourceFactory extends BaseShaderFactory {
             throw new IllegalArgumentException("Shader name must be non-null");
         }
         try {
-            InputStream stream =
-                    ES2ResourceFactory.class.getResourceAsStream(
-                    "glsl/" + name + ".frag");
+            File file = new File("glsl/" + name + ".frag");
+
+            InputStream stream = new FileInputStream(file);//ES2ResourceFactory.class.getResourceAsStream("glsl/" + name + ".frag");
             Class klass =
                     Class.forName("com.sun.prism.shader." + name + "_Loader");
             if (PrismSettings.verbose) {
                 System.out.println("ES2ResourceFactory: Prism - createStockShader: " + name + ".frag");
             }
+
             Method m =
                     klass.getMethod("loadShader", new Class[]{ShaderFactory.class,
                         InputStream.class});

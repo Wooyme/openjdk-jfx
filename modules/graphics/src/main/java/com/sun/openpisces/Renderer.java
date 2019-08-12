@@ -398,6 +398,7 @@ public final class Renderer implements PathConsumer2D {
 
     public void moveTo(float pix_x0, float pix_y0) {
         closePath();
+
         this.pix_sx0 = pix_x0;
         this.pix_sy0 = pix_y0;
         this.y0 = tosubpixy(pix_y0);
@@ -417,6 +418,7 @@ public final class Renderer implements PathConsumer2D {
                                   float x2, float y2,
                                   float x3, float y3)
     {
+
         final float xe = tosubpixx(x3);
         final float ye = tosubpixy(y3);
         c.set(x0, y0, tosubpixx(x1), tosubpixy(y1), tosubpixx(x2), tosubpixy(y2), xe, ye);
@@ -550,7 +552,7 @@ public final class Renderer implements PathConsumer2D {
     public int getSubpixMinX() {
         int sampleColMin = (int) Math.ceil(edgeMinX - 0.5f);
         if (sampleColMin < boundsMinX) sampleColMin = boundsMinX;
-	return sampleColMin;
+	    return sampleColMin;
     }
 
     public int getSubpixMaxX() {

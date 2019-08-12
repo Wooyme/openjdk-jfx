@@ -21,18 +21,18 @@ void _tray_menu_cb(void *item,struct tray_menu* data){
 
 }
 
-JNIEXPORT jlong JNICALL Java_com_sun_glass_ui_win_WinTray_initTrayNative(JNIEnv *env, jobject jthis, jstring jicon){
-    const char *icon = env->GetStringUTFChars(jicon, 0);
+JNIEXPORT jlong JNICALL Java_com_sun_glass_ui_Tray_initTrayNative(JNIEnv *env, jobject jthis, jstring jicon){
+    WCHAR *icon = (WCHAR *)env->GetStringChars(jicon, 0);
     env->GetJavaVM(&gVM);
     gThis = env->NewGlobalRef(jthis);
     jclass thisClass = env->GetObjectClass(jthis);
     gMid = env->GetMethodID(thisClass, "onMenuClick", "(I)V");
     struct tray *tray = (struct tray*)malloc(sizeof(struct tray));
-    tray->icon = (char*)malloc(128);
-    memset(tray->icon,0,128);
-    memcpy(tray->icon,icon,strlen(icon));
+    tray->icon = (LPWSTR)malloc(128*sizeof(wchar_t));
+    memset(tray->icon,0,128*sizeof(wchar_t));
+    memcpy(tray->icon,icon,wcslen(icon)*sizeof(wchar_t));
     std::cout<<"Icon:"<<tray->icon<<std::endl;
-    env->ReleaseStringUTFChars(jicon, icon);
+    env->ReleaseStringChars(jicon, (const jchar *)icon);
     struct tray_menu *tray_menus = (struct tray_menu*)malloc(sizeof(struct tray_menu)*20);
     memset(tray_menus,0,sizeof(struct tray_menu)*20);
     tray->menu = tray_menus;
@@ -40,19 +40,19 @@ JNIEXPORT jlong JNICALL Java_com_sun_glass_ui_win_WinTray_initTrayNative(JNIEnv 
     return (jlong)tray;
 }
 
-JNIEXPORT void JNICALL Java_com_sun_glass_ui_win_WinTray_addMenuNative(JNIEnv *env, jobject jthis, jlong jpointer, jstring jtext, jint jid,jint is_update){
-    const char *text = env->GetStringUTFChars(jtext, 0);
+JNIEXPORT void JNICALL Java_com_sun_glass_ui_Tray_addMenuNative(JNIEnv *env, jobject jthis, jlong jpointer, jstring jtext, jint jid,jint is_update){
+    LPWSTR text = (LPWSTR)env->GetStringChars(jtext, 0);
     struct tray *tray = (struct tray*)jpointer;
     std::cout<<"Current Icon:"<<tray->icon<<std::endl;
     if(is_update==0)
-        tray->menu[jid].text = (char*)malloc(64);
-    memset(tray->menu[jid].text,0,64);
-    memcpy(tray->menu[jid].text,text,strlen(text));
+        tray->menu[jid].text = (LPWSTR)malloc(64*sizeof(wchar_t));
+    memset(tray->menu[jid].text,0,64*sizeof(wchar_t));
+    memcpy(tray->menu[jid].text,text,wcslen(text)*sizeof(wchar_t));
     tray->menu[jid].id = (int)jid;
-    env->ReleaseStringUTFChars(jtext, text);
+    env->ReleaseStringChars(jtext, (const jchar *)text);
     tray_update(tray);
 }
 
-JNIEXPORT void JNICCALL Java_com_sun_glass_ui_win_WinTray_loop(JNIEnv *env, jobject jthis, jint blocking){
+JNIEXPORT void JNICALL Java_com_sun_glass_ui_Tray_loop(JNIEnv *env, jobject jthis, jint blocking){
     tray_loop((int)blocking);
 }

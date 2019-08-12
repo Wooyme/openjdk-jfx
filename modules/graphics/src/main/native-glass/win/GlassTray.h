@@ -10,7 +10,6 @@
 #define _Included_com_sun_glass_ui_win_WinTray
 
 #define WM_TRAY_CALLBACK_MESSAGE (WM_USER + 1)
-#define WC_TRAY_CLASS_NAME "TRAY"
 #define ID_TRAY_FIRST 1000
 
 static WNDCLASSEX wc;
@@ -22,12 +21,12 @@ static HMENU hmenu = NULL;
 struct tray_menu;
 
 struct tray {
-  char *icon;
+  WCHAR *icon;
   struct tray_menu *menu;
 };
 
 struct tray_menu {
-  char *text;
+  WCHAR *text;
   int id;
 };
 
@@ -56,9 +55,12 @@ LRESULT CALLBACK _tray_wnd_proc(HWND hwnd, UINT msg, WPARAM wparam,
     break;
   case WM_COMMAND:
     if (wparam >= ID_TRAY_FIRST) {
-      MENUITEMINFO item = {
-          .cbSize = sizeof(MENUITEMINFO), .fMask = MIIM_ID | MIIM_DATA,
-      };
+      MENUITEMINFO item;
+      item.cbSize = sizeof(MENUITEMINFO);
+      item.fMask = MIIM_ID | MIIM_DATA;
+//       = {
+//          .cbSize = sizeof(MENUITEMINFO), .fMask = MIIM_ID | MIIM_DATA
+//      };
       if (GetMenuItemInfo(hmenu, wparam, FALSE, &item)) {
         struct tray_menu *menu = (struct tray_menu *)item.dwItemData;
           _tray_menu_cb(NULL,menu);
@@ -73,8 +75,8 @@ LRESULT CALLBACK _tray_wnd_proc(HWND hwnd, UINT msg, WPARAM wparam,
 HMENU _tray_menu(struct tray_menu *m, UINT *id) {
   HMENU hmenu = CreatePopupMenu();
   for (; m != NULL && m->text != NULL; m++, (*id)++) {
-    if (strcmp(m->text, "-") == 0) {
-      InsertMenu(hmenu, *id, MF_SEPARATOR, TRUE, "");
+    if (wcscmp(m->text, L"-") == 0) {
+      InsertMenu(hmenu, *id, MF_SEPARATOR, TRUE, L"");
     } else {
       MENUITEMINFO item;
       memset(&item, 0, sizeof(item));
@@ -92,17 +94,35 @@ HMENU _tray_menu(struct tray_menu *m, UINT *id) {
   return hmenu;
 }
 
+void tray_update(struct tray *tray) {
+  HMENU prevmenu = hmenu;
+  UINT id = ID_TRAY_FIRST;
+  hmenu = _tray_menu(tray->menu, &id);
+  SendMessage(hwnd, WM_INITMENUPOPUP, (WPARAM)hmenu, 0);
+  HICON icon;
+  ExtractIconEx(tray->icon, 0, NULL, &icon, 1);
+  if (nid.hIcon) {
+    DestroyIcon(nid.hIcon);
+  }
+  nid.hIcon = icon;
+  Shell_NotifyIcon(NIM_MODIFY, &nid);
+
+  if (prevmenu != NULL) {
+    DestroyMenu(prevmenu);
+  }
+}
+
 int tray_init(struct tray *tray) {
   memset(&wc, 0, sizeof(wc));
   wc.cbSize = sizeof(WNDCLASSEX);
   wc.lpfnWndProc = _tray_wnd_proc;
   wc.hInstance = GetModuleHandle(NULL);
-  wc.lpszClassName = WC_TRAY_CLASS_NAME;
+  wc.lpszClassName = L"TRAY";
   if (!RegisterClassEx(&wc)) {
     return -1;
   }
 
-  hwnd = CreateWindowEx(0, WC_TRAY_CLASS_NAME, NULL, 0, 0, 0, 0, 0, 0, 0, 0, 0);
+  hwnd = CreateWindowEx(0, L"TRAY", NULL, 0, 0, 0, 0, 0, 0, 0, 0, 0);
   if (hwnd == NULL) {
     return -1;
   }
@@ -135,24 +155,6 @@ int tray_loop(int blocking) {
   return 0;
 }
 
-void tray_update(struct tray *tray) {
-  HMENU prevmenu = hmenu;
-  UINT id = ID_TRAY_FIRST;
-  hmenu = _tray_menu(tray->menu, &id);
-  SendMessage(hwnd, WM_INITMENUPOPUP, (WPARAM)hmenu, 0);
-  HICON icon;
-  ExtractIconEx(tray->icon, 0, NULL, &icon, 1);
-  if (nid.hIcon) {
-    DestroyIcon(nid.hIcon);
-  }
-  nid.hIcon = icon;
-  Shell_NotifyIcon(NIM_MODIFY, &nid);
-
-  if (prevmenu != NULL) {
-    DestroyMenu(prevmenu);
-  }
-}
-
 void tray_exit() {
   Shell_NotifyIcon(NIM_DELETE, &nid);
   if (nid.hIcon != 0) {
@@ -162,7 +164,7 @@ void tray_exit() {
     DestroyMenu(hmenu);
   }
   PostQuitMessage(0);
-  UnregisterClass(WC_TRAY_CLASS_NAME, GetModuleHandle(NULL));
+  UnregisterClass(L"TRAY", GetModuleHandle(NULL));
 }
 
 
@@ -170,13 +172,13 @@ void tray_exit() {
 extern "C" {
 #endif
 
-JNIEXPORT jlong JNICALL Java_com_sun_glass_ui_win_WinTray_initTrayNative
+JNIEXPORT jlong JNICALL Java_com_sun_glass_ui_Tray_initTrayNative
   (JNIEnv *, jobject,jstring);
 
-JNIEXPORT void JNICALL Java_com_sun_glass_ui_win_WinTray_addMenuNative
+JNIEXPORT void JNICALL Java_com_sun_glass_ui_Tray_addMenuNative
   (JNIEnv *, jobject, jlong, jstring, jint, jint);
 
-JNIEXPORT void JNICCALL Java_com_sun_glass_ui_win_WinTray_loop
+JNIEXPORT void JNICALL Java_com_sun_glass_ui_Tray_loop
   (JNIEnv *, jobject, jint);
 
 #ifdef __cplusplus

@@ -41,6 +41,10 @@ public class OpenPiscesRasterizer implements ShapeRasterizer {
 
     private static Consumer savedConsumer;
 
+    public OpenPiscesRasterizer(){
+        System.out.println("OpenPiscesRasterizer!");
+    }
+
     @Override
     public MaskData getMaskData(Shape shape,
                                 BasicStroke stroke,
@@ -73,6 +77,7 @@ public class OpenPiscesRasterizer implements ShapeRasterizer {
         }
         Rectangle rclip = new Rectangle(xformBounds);
         if (rclip.isEmpty()) {
+            System.out.println("Rclip is empty");
             return emptyData;
         }
         Renderer renderer = null;
@@ -95,6 +100,8 @@ public class OpenPiscesRasterizer implements ShapeRasterizer {
         }
 
         Consumer consumer = savedConsumer;
+        if(consumer!=null)
+            System.out.println("W:"+w+" H:"+h+" Alpha:"+consumer.getAlphaLength());
         if (consumer == null || w * h > consumer.getAlphaLength()) {
             int csize = (w * h + 0xfff) & (~0xfff);
             savedConsumer = consumer = new Consumer(csize);

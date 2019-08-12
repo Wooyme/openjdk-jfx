@@ -75,8 +75,8 @@ public final class PiscesRenderer {
     public static final int ARC_CHORD = 1;
     public static final int ARC_PIE = 2;
     
-    private long nativePtr = 0L;
-    private AbstractSurface surface;
+    public long nativePtr = 0L;
+    public AbstractSurface surface;
 
     /**
      * Creates a renderer that will write into a given surface.

@@ -145,6 +145,7 @@ public abstract class TransformingPathConsumer2D implements PathConsumer2D {
             float Myx = (float) tx.getMyx();
             float Myy = (float) tx.getMyy();
             float Myt = (float) tx.getMyt();
+
             if (Mxy == 0f && Myx == 0f) {
                 if (Mxx == 1f && Myy == 1f) {
                     if (Mxt == 0f && Myt == 0f) {

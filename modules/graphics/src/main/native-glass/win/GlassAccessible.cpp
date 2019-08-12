@@ -29,7 +29,7 @@
 #include "GlassAccessible.h"
 #include "GlassTextRangeProvider.h"
 #include "GlassApplication.h"
-
+#include <iostream>
 /* WinAccessible Method IDs */
 static jmethodID mid_GetPatternProvider;
 static jmethodID mid_get_HostRawElementProvider;
@@ -148,7 +148,9 @@ static jfieldID fid_pDblVal;
 /* static */ HRESULT GlassAccessible::copyList(JNIEnv *env, jarray list, SAFEARRAY** pparrayVal, VARTYPE vt)
 {
     if (list) {
+        std::cout<<"List:"<<std::endl;
         jsize size = env->GetArrayLength(list);
+        std::cout<<"Size:"<<(int) size<<std::endl;
         SAFEARRAY *psa = SafeArrayCreateVector(vt, 0, size);
         if (psa) {
             void* listPtr = env->GetPrimitiveArrayCritical(list, 0);

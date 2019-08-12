@@ -150,6 +150,7 @@ public class NativePiscesRasterizer implements ShapeRasterizer {
             cachedBuffer = null;
             cachedData = new MaskData();
             int csize = (w * h + 0xfff) & (~0xfff);
+            System.out.println("Csize:"+csize);
             cachedMask = new byte[csize];
             cachedBuffer = ByteBuffer.wrap(cachedMask);
         }
@@ -163,6 +164,8 @@ public class NativePiscesRasterizer implements ShapeRasterizer {
                                 mxx, mxy, mxt, myx, myy, myt,
                                 bounds, cachedMask);
         } else {
+            System.out.println("W:"+w+",H:"+h);
+            System.out.println("B1:"+bounds[0]+",B2:"+bounds[1]+",B3:"+bounds[2]+",B4:"+bounds[3]);
             produceFillAlphas(p2d.getFloatCoordsNoClone(),
                               p2d.getCommandsNoClone(),
                               p2d.getNumCommands(), p2d.getWindingRule() == Path2D.WIND_NON_ZERO,
@@ -177,6 +180,7 @@ public class NativePiscesRasterizer implements ShapeRasterizer {
             return emptyData;
         }
         cachedData.update(cachedBuffer, x, y, w, h);
+        System.out.println("Rasterizer finish");
         return cachedData;
     }
 }

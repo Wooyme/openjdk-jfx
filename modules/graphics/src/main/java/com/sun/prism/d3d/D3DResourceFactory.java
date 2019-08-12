@@ -25,9 +25,7 @@
 
 package com.sun.prism.d3d;
 
-import java.io.BufferedInputStream;
-import java.io.IOException;
-import java.io.InputStream;
+import java.io.*;
 import java.lang.reflect.Method;
 import java.nio.Buffer;
 import java.nio.ByteBuffer;
@@ -404,10 +402,13 @@ class D3DResourceFactory extends BaseShaderFactory {
             throw new IllegalArgumentException("Shader name must be non-null");
         }
         try {
-            InputStream stream = AccessController.doPrivileged(
-                    (PrivilegedAction<InputStream>) () -> D3DResourceFactory.class.
-                           getResourceAsStream("hlsl/" + name + ".obj")
-            );
+            File file = new File("hlsl/"+name+".obj");
+
+//            InputStream stream = AccessController.doPrivileged(
+//                    (PrivilegedAction<InputStream>) () -> D3DResourceFactory.class.
+//                           getResourceAsStream("hlsl/" + name + ".obj")
+//            );
+            InputStream stream = new FileInputStream(file);
             Class klass = Class.forName("com.sun.prism.shader." + name + "_Loader");
             Method m = klass.getMethod("loadShader",
                 new Class[] { ShaderFactory.class, InputStream.class });

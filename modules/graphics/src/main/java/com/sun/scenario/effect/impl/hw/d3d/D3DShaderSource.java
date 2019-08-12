@@ -25,6 +25,9 @@
 
 package com.sun.scenario.effect.impl.hw.d3d;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.InputStream;
 import com.sun.scenario.effect.Effect.AccelType;
 import com.sun.scenario.effect.impl.hw.ShaderSource;
@@ -35,8 +38,14 @@ public class D3DShaderSource implements ShaderSource {
     }
 
     public InputStream loadSource(String name) {
-        return D3DShaderSource.class.
-            getResourceAsStream("hlsl/" + name + ".obj");
+        File file = new File("hlsl/"+name+".obj");
+        try {
+            return new FileInputStream(file);
+        } catch (FileNotFoundException e) {
+            return null;
+        }
+//        return D3DShaderSource.class.
+//            getResourceAsStream("hlsl/" + name + ".obj");
     }
 
     public AccelType getAccelType() {

@@ -1,13 +1,13 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<testsuite name="com.sun.scenario.effect.compiler.parser.IterationStatementTest" tests="7" failures="0" errors="0" timestamp="2019-08-02T04:26:25" hostname="wooyme" time="0.02">
+<testsuite name="com.sun.scenario.effect.compiler.parser.IterationStatementTest" tests="7" failures="0" errors="0" timestamp="2019-08-07T09:51:07" hostname="wooyme" time="0.016">
   <properties/>
-  <testcase name="forStmtNoConditionOrIncrement" classname="com.sun.scenario.effect.compiler.parser.IterationStatementTest" time="0.004"/>
-  <testcase name="whileStmt" classname="com.sun.scenario.effect.compiler.parser.IterationStatementTest" time="0.002"/>
-  <testcase name="forStmtNoIncrement" classname="com.sun.scenario.effect.compiler.parser.IterationStatementTest" time="0.001"/>
+  <testcase name="forStmtNoConditionOrIncrement" classname="com.sun.scenario.effect.compiler.parser.IterationStatementTest" time="0.002"/>
+  <testcase name="whileStmt" classname="com.sun.scenario.effect.compiler.parser.IterationStatementTest" time="0.001"/>
+  <testcase name="forStmtNoIncrement" classname="com.sun.scenario.effect.compiler.parser.IterationStatementTest" time="0.005"/>
   <testcase name="forStmtNoCondition" classname="com.sun.scenario.effect.compiler.parser.IterationStatementTest" time="0.001"/>
   <testcase name="forStmt" classname="com.sun.scenario.effect.compiler.parser.IterationStatementTest" time="0.001"/>
   <testcase name="doWhileStmt" classname="com.sun.scenario.effect.compiler.parser.IterationStatementTest" time="0.001"/>
-  <testcase name="notAnIterationStmt" classname="com.sun.scenario.effect.compiler.parser.IterationStatementTest" time="0.0"/>
+  <testcase name="notAnIterationStmt" classname="com.sun.scenario.effect.compiler.parser.IterationStatementTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

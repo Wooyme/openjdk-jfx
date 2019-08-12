@@ -1,7 +1,246 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6bcf4deb-aff5-4481-aff0-2b21a0af87bd" name="Default Changelist" comment="" />
+    <list default="true" id="6bcf4deb-aff5-4481-aff0-2b21a0af87bd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gradle/1.8/taskArtifacts/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gradle/1.8/taskArtifacts/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gradle/1.8/taskArtifacts/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gradle/1.8/taskArtifacts/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gradle/1.8/taskArtifacts/fileSnapshots.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gradle/1.8/taskArtifacts/fileSnapshots.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gradle/1.8/taskArtifacts/outputFileStates.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gradle/1.8/taskArtifacts/outputFileStates.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gradle/1.8/taskArtifacts/taskArtifacts.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gradle/1.8/taskArtifacts/taskArtifacts.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gradle/5.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gradle/5.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gradle/5.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gradle/5.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../build/sdk/lib/ant-javafx.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../../build/sdk/lib/ant-javafx.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../build/sdk/lib/javafx-mx.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../../build/sdk/lib/javafx-mx.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../build/sdk/lib/packager.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../../build/sdk/lib/packager.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../build/sdk/rt/lib/amd64/libglass.so" beforeDir="false" afterPath="$PROJECT_DIR$/../../build/sdk/rt/lib/amd64/libglass.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../build/sdk/rt/lib/amd64/libprism_common.so" beforeDir="false" afterPath="$PROJECT_DIR$/../../build/sdk/rt/lib/amd64/libprism_common.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../build/sdk/rt/lib/ext/jfxrt.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../../build/sdk/rt/lib/ext/jfxrt.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../build/sdk/rt/lib/jfxswt.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../../build/sdk/rt/lib/jfxswt.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../buildSrc/.gradle/1.8/taskArtifacts/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../buildSrc/.gradle/1.8/taskArtifacts/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../buildSrc/.gradle/1.8/taskArtifacts/fileSnapshots.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../buildSrc/.gradle/1.8/taskArtifacts/fileSnapshots.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../buildSrc/.gradle/1.8/taskArtifacts/taskArtifacts.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../buildSrc/.gradle/1.8/taskArtifacts/taskArtifacts.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../buildSrc/build/reports/tests/com.sun.scenario.effect.compiler.SymbolTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../buildSrc/build/reports/tests/com.sun.scenario.effect.compiler.SymbolTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../buildSrc/build/reports/tests/com.sun.scenario.effect.compiler.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../buildSrc/build/reports/tests/com.sun.scenario.effect.compiler.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../buildSrc/build/reports/tests/com.sun.scenario.effect.compiler.lexer.BoolTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../buildSrc/build/reports/tests/com.sun.scenario.effect.compiler.lexer.BoolTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../buildSrc/build/reports/tests/com.sun.scenario.effect.compiler.lexer.CommentTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../buildSrc/build/reports/tests/com.sun.scenario.effect.compiler.lexer.CommentTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../buildSrc/build/reports/tests/com.sun.scenario.effect.compiler.lexer.FloatTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../buildSrc/build/reports/tests/com.sun.scenario.effect.compiler.lexer.FloatTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../buildSrc/build/reports/tests/com.sun.scenario.effect.compiler.lexer.IdentifierTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../buildSrc/build/reports/tests/com.sun.scenario.effect.compiler.lexer.IdentifierTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../buildSrc/build/reports/tests/com.sun.scenario.effect.compiler.lexer.IntegerTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../buildSrc/build/reports/tests/com.sun.scenario.effect.compiler.lexer.IntegerTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../buildSrc/build/reports/tests/com.sun.scenario.effect.compiler.lexer.LineCommentTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../buildSrc/build/reports/tests/com.sun.scenario.effect.compiler.lexer.LineCommentTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../buildSrc/build/reports/tests/com.sun.scenario.effect.compiler.lexer.TypeTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../buildSrc/build/reports/tests/com.sun.scenario.effect.compiler.lexer.TypeTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../buildSrc/build/reports/tests/com.sun.scenario.effect.compiler.lexer.WhitespaceTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../buildSrc/build/reports/tests/com.sun.scenario.effect.compiler.lexer.WhitespaceTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../buildSrc/build/reports/tests/com.sun.scenario.effect.compiler.lexer.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../buildSrc/build/reports/tests/com.sun.scenario.effect.compiler.lexer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../buildSrc/build/reports/tests/com.sun.scenario.effect.compiler.parser.AddExprTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../buildSrc/build/reports/tests/com.sun.scenario.effect.compiler.parser.AddExprTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../buildSrc/build/reports/tests/com.sun.scenario.effect.compiler.parser.AssignmentExprTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../buildSrc/build/reports/tests/com.sun.scenario.effect.compiler.parser.AssignmentExprTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../buildSrc/build/reports/tests/com.sun.scenario.effect.compiler.parser.EqualityExprTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../buildSrc/build/reports/tests/com.sun.scenario.effect.compiler.parser.EqualityExprTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../buildSrc/build/reports/tests/com.sun.scenario.effect.compiler.parser.ExternalDeclarationTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../buildSrc/build/reports/tests/com.sun.scenario.effect.compiler.parser.ExternalDeclarationTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../buildSrc/build/reports/tests/com.sun.scenario.effect.compiler.parser.FieldSelectTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../buildSrc/build/reports/tests/com.sun.scenario.effect.compiler.parser.FieldSelectTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../buildSrc/build/reports/tests/com.sun.scenario.effect.compiler.parser.FullySpecifiedTypeTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../buildSrc/build/reports/tests/com.sun.scenario.effect.compiler.parser.FullySpecifiedTypeTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../buildSrc/build/reports/tests/com.sun.scenario.effect.compiler.parser.IterationStatementTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../buildSrc/build/reports/tests/com.sun.scenario.effect.compiler.parser.IterationStatementTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../buildSrc/build/reports/tests/com.sun.scenario.effect.compiler.parser.JumpStatementTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../buildSrc/build/reports/tests/com.sun.scenario.effect.compiler.parser.JumpStatementTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../buildSrc/build/reports/tests/com.sun.scenario.effect.compiler.parser.MultExprTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../buildSrc/build/reports/tests/com.sun.scenario.effect.compiler.parser.MultExprTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../buildSrc/build/reports/tests/com.sun.scenario.effect.compiler.parser.PrimaryExprTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../buildSrc/build/reports/tests/com.sun.scenario.effect.compiler.parser.PrimaryExprTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../buildSrc/build/reports/tests/com.sun.scenario.effect.compiler.parser.RelationalExprTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../buildSrc/build/reports/tests/com.sun.scenario.effect.compiler.parser.RelationalExprTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../buildSrc/build/reports/tests/com.sun.scenario.effect.compiler.parser.SelectionStatementTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../buildSrc/build/reports/tests/com.sun.scenario.effect.compiler.parser.SelectionStatementTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../buildSrc/build/reports/tests/com.sun.scenario.effect.compiler.parser.UnaryExprTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../buildSrc/build/reports/tests/com.sun.scenario.effect.compiler.parser.UnaryExprTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../buildSrc/build/reports/tests/com.sun.scenario.effect.compiler.parser.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../buildSrc/build/reports/tests/com.sun.scenario.effect.compiler.parser.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../buildSrc/build/reports/tests/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../buildSrc/build/reports/tests/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../buildSrc/build/test-results/TEST-com.sun.scenario.effect.compiler.SymbolTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../buildSrc/build/test-results/TEST-com.sun.scenario.effect.compiler.SymbolTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../buildSrc/build/test-results/TEST-com.sun.scenario.effect.compiler.lexer.BoolTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../buildSrc/build/test-results/TEST-com.sun.scenario.effect.compiler.lexer.BoolTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../buildSrc/build/test-results/TEST-com.sun.scenario.effect.compiler.lexer.CommentTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../buildSrc/build/test-results/TEST-com.sun.scenario.effect.compiler.lexer.CommentTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../buildSrc/build/test-results/TEST-com.sun.scenario.effect.compiler.lexer.FloatTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../buildSrc/build/test-results/TEST-com.sun.scenario.effect.compiler.lexer.FloatTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../buildSrc/build/test-results/TEST-com.sun.scenario.effect.compiler.lexer.IdentifierTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../buildSrc/build/test-results/TEST-com.sun.scenario.effect.compiler.lexer.IdentifierTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../buildSrc/build/test-results/TEST-com.sun.scenario.effect.compiler.lexer.IntegerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../buildSrc/build/test-results/TEST-com.sun.scenario.effect.compiler.lexer.IntegerTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../buildSrc/build/test-results/TEST-com.sun.scenario.effect.compiler.lexer.LineCommentTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../buildSrc/build/test-results/TEST-com.sun.scenario.effect.compiler.lexer.LineCommentTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../buildSrc/build/test-results/TEST-com.sun.scenario.effect.compiler.lexer.TypeTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../buildSrc/build/test-results/TEST-com.sun.scenario.effect.compiler.lexer.TypeTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../buildSrc/build/test-results/TEST-com.sun.scenario.effect.compiler.lexer.WhitespaceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../buildSrc/build/test-results/TEST-com.sun.scenario.effect.compiler.lexer.WhitespaceTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../buildSrc/build/test-results/TEST-com.sun.scenario.effect.compiler.parser.AddExprTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../buildSrc/build/test-results/TEST-com.sun.scenario.effect.compiler.parser.AddExprTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../buildSrc/build/test-results/TEST-com.sun.scenario.effect.compiler.parser.AssignmentExprTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../buildSrc/build/test-results/TEST-com.sun.scenario.effect.compiler.parser.AssignmentExprTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../buildSrc/build/test-results/TEST-com.sun.scenario.effect.compiler.parser.EqualityExprTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../buildSrc/build/test-results/TEST-com.sun.scenario.effect.compiler.parser.EqualityExprTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../buildSrc/build/test-results/TEST-com.sun.scenario.effect.compiler.parser.ExternalDeclarationTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../buildSrc/build/test-results/TEST-com.sun.scenario.effect.compiler.parser.ExternalDeclarationTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../buildSrc/build/test-results/TEST-com.sun.scenario.effect.compiler.parser.FieldSelectTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../buildSrc/build/test-results/TEST-com.sun.scenario.effect.compiler.parser.FieldSelectTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../buildSrc/build/test-results/TEST-com.sun.scenario.effect.compiler.parser.FullySpecifiedTypeTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../buildSrc/build/test-results/TEST-com.sun.scenario.effect.compiler.parser.FullySpecifiedTypeTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../buildSrc/build/test-results/TEST-com.sun.scenario.effect.compiler.parser.IterationStatementTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../buildSrc/build/test-results/TEST-com.sun.scenario.effect.compiler.parser.IterationStatementTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../buildSrc/build/test-results/TEST-com.sun.scenario.effect.compiler.parser.JumpStatementTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../buildSrc/build/test-results/TEST-com.sun.scenario.effect.compiler.parser.JumpStatementTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../buildSrc/build/test-results/TEST-com.sun.scenario.effect.compiler.parser.MultExprTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../buildSrc/build/test-results/TEST-com.sun.scenario.effect.compiler.parser.MultExprTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../buildSrc/build/test-results/TEST-com.sun.scenario.effect.compiler.parser.PrimaryExprTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../buildSrc/build/test-results/TEST-com.sun.scenario.effect.compiler.parser.PrimaryExprTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../buildSrc/build/test-results/TEST-com.sun.scenario.effect.compiler.parser.RelationalExprTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../buildSrc/build/test-results/TEST-com.sun.scenario.effect.compiler.parser.RelationalExprTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../buildSrc/build/test-results/TEST-com.sun.scenario.effect.compiler.parser.SelectionStatementTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../buildSrc/build/test-results/TEST-com.sun.scenario.effect.compiler.parser.SelectionStatementTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../buildSrc/build/test-results/TEST-com.sun.scenario.effect.compiler.parser.UnaryExprTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../buildSrc/build/test-results/TEST-com.sun.scenario.effect.compiler.parser.UnaryExprTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../buildSrc/build/test-results/binary/test/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../buildSrc/build/test-results/binary/test/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../base/build/classes/main/com/sun/javafx/runtime/VersionInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../base/build/classes/main/com/sun/javafx/runtime/VersionInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../base/build/generated-src/version-info/com/sun/javafx/runtime/VersionInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../base/build/generated-src/version-info/com/sun/javafx/runtime/VersionInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../base/build/libs/base.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../base/build/libs/base.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../builders/build/libs/builders.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../builders/build/libs/builders.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../controls/build/libs/controls.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../controls/build/libs/controls.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../extensions/build/libs/extensions.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../extensions/build/libs/extensions.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fxml/build/libs/fxml.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../fxml/build/libs/fxml.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fxpackager/build/libs/ant-javafx.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../fxpackager/build/libs/ant-javafx.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fxpackager/build/libs/packager.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../fxpackager/build/libs/packager.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/com/sun/javafx/css/StyleManager$Cache$Key.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/com/sun/javafx/css/StyleManager$Cache$Key.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/com/sun/javafx/css/StyleManager$Cache.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/com/sun/javafx/css/StyleManager$Cache.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/com/sun/javafx/css/StyleManager$CacheContainer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/com/sun/javafx/css/StyleManager$CacheContainer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/com/sun/javafx/css/StyleManager$InstanceHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/com/sun/javafx/css/StyleManager$InstanceHolder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/com/sun/javafx/css/StyleManager$Key.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/com/sun/javafx/css/StyleManager$Key.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/com/sun/javafx/css/StyleManager$RefList.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/com/sun/javafx/css/StyleManager$RefList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/com/sun/javafx/css/StyleManager$StylesheetContainer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/com/sun/javafx/css/StyleManager$StylesheetContainer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/com/sun/javafx/css/StyleManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/com/sun/javafx/css/StyleManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/com/sun/javafx/font/PrismFontFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/com/sun/javafx/font/PrismFontFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/com/sun/javafx/font/PrismFontLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/com/sun/javafx/font/PrismFontLoader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/com/sun/javafx/font/directwrite/DWRITE_GLYPH_RUN.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/com/sun/javafx/font/directwrite/DWRITE_GLYPH_RUN.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/com/sun/javafx/geom/transform/Affine3D$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/com/sun/javafx/geom/transform/Affine3D$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/com/sun/javafx/geom/transform/Affine3D.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/com/sun/javafx/geom/transform/Affine3D.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/com/sun/openpisces/Renderer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/com/sun/openpisces/Renderer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/com/sun/openpisces/TransformingPathConsumer2D$DeltaScaleFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/com/sun/openpisces/TransformingPathConsumer2D$DeltaScaleFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/com/sun/openpisces/TransformingPathConsumer2D$DeltaTransformFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/com/sun/openpisces/TransformingPathConsumer2D$DeltaTransformFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/com/sun/openpisces/TransformingPathConsumer2D$FilterSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/com/sun/openpisces/TransformingPathConsumer2D$FilterSet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/com/sun/openpisces/TransformingPathConsumer2D$ScaleTranslateFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/com/sun/openpisces/TransformingPathConsumer2D$ScaleTranslateFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/com/sun/openpisces/TransformingPathConsumer2D$TransformFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/com/sun/openpisces/TransformingPathConsumer2D$TransformFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/com/sun/openpisces/TransformingPathConsumer2D$TranslateFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/com/sun/openpisces/TransformingPathConsumer2D$TranslateFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/com/sun/pisces/AbstractSurface.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/com/sun/pisces/AbstractSurface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/com/sun/pisces/PiscesRenderer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/com/sun/pisces/PiscesRenderer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/com/sun/prism/d3d/D3DResourceFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/com/sun/prism/d3d/D3DResourceFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/com/sun/prism/es2/ES2ResourceFactory$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/com/sun/prism/es2/ES2ResourceFactory$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/com/sun/prism/es2/ES2ResourceFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/com/sun/prism/es2/ES2ResourceFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/com/sun/prism/impl/shape/NativePiscesRasterizer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/com/sun/prism/impl/shape/NativePiscesRasterizer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/com/sun/prism/impl/shape/OpenPiscesPrismUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/com/sun/prism/impl/shape/OpenPiscesPrismUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/com/sun/prism/impl/shape/OpenPiscesRasterizer$Consumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/com/sun/prism/impl/shape/OpenPiscesRasterizer$Consumer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/com/sun/prism/impl/shape/OpenPiscesRasterizer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/com/sun/prism/impl/shape/OpenPiscesRasterizer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/com/sun/prism/impl/shape/ShapeUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/com/sun/prism/impl/shape/ShapeUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/com/sun/scenario/effect/impl/hw/d3d/D3DShaderSource.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/com/sun/scenario/effect/impl/hw/d3d/D3DShaderSource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/CssStyleHelper$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/CssStyleHelper$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/Node$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/Node$13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/Node$16.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/Node$16.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/Node$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/Node$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/Node$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/Node$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/Node$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/Node$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/Node$MiscProperties$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/Node$MiscProperties$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/Node$MiscProperties$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/Node$MiscProperties$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/Node$NodeTransformation$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/Node$NodeTransformation$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/Node$NodeTransformation$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/Node$NodeTransformation$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/Node$NodeTransformation$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/Node$NodeTransformation$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/Node$NodeTransformation$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/Node$NodeTransformation$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/Node$NodeTransformation$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/Node$NodeTransformation$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/Node$NodeTransformation$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/Node$NodeTransformation$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/Node$NodeTransformation$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/Node$NodeTransformation$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/Node$StyleableProperties$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/Node$StyleableProperties$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/Node$StyleableProperties$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/Node$StyleableProperties$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/Node$StyleableProperties$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/Node$StyleableProperties$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/Node$StyleableProperties$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/Node$StyleableProperties$12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/Node$StyleableProperties$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/Node$StyleableProperties$14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/Node$StyleableProperties$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/Node$StyleableProperties$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/Node$StyleableProperties$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/Node$StyleableProperties$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/Node$StyleableProperties$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/Node$StyleableProperties$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/Node$StyleableProperties$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/Node$StyleableProperties$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/Node$StyleableProperties$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/Node$StyleableProperties$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/Node$StyleableProperties$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/Node$StyleableProperties$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/Node$StyleableProperties$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/Node$StyleableProperties$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/Node$StyleableProperties$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/Node$StyleableProperties$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/Scene$53.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/Scene$53.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/image/ImageView$StyleableProperties$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/image/ImageView$StyleableProperties$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/layout/Region$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/layout/Region$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/layout/Region$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/layout/Region$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/layout/Region$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/layout/Region$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/layout/Region$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/layout/Region$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/layout/Region$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/layout/Region$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/layout/Region$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/layout/Region$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/layout/Region$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/layout/Region$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/layout/Region$StyleableProperties$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/layout/Region$StyleableProperties$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/layout/Region$StyleableProperties$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/layout/Region$StyleableProperties$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/layout/Region$StyleableProperties$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/layout/Region$StyleableProperties$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/layout/Region$StyleableProperties$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/layout/Region$StyleableProperties$12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/layout/Region$StyleableProperties$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/layout/Region$StyleableProperties$13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/layout/Region$StyleableProperties$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/layout/Region$StyleableProperties$14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/layout/Region$StyleableProperties$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/layout/Region$StyleableProperties$15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/layout/Region$StyleableProperties$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/layout/Region$StyleableProperties$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/layout/Region$StyleableProperties$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/layout/Region$StyleableProperties$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/layout/Region$StyleableProperties$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/layout/Region$StyleableProperties$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/layout/Region$StyleableProperties$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/layout/Region$StyleableProperties$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/layout/Region$StyleableProperties$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/layout/Region$StyleableProperties$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/layout/Region$StyleableProperties$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/layout/Region$StyleableProperties$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/layout/Region$StyleableProperties$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/layout/Region$StyleableProperties$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/layout/Region$StyleableProperties$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/layout/Region$StyleableProperties$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/shape/Shape$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/shape/Shape$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/shape/Shape$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/shape/Shape$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/shape/Shape$StrokeAttributes$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/shape/Shape$StrokeAttributes$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/shape/Shape$StrokeAttributes$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/shape/Shape$StrokeAttributes$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/shape/Shape$StrokeAttributes$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/shape/Shape$StrokeAttributes$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/shape/Shape$StrokeAttributes$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/shape/Shape$StrokeAttributes$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/shape/Shape$StrokeAttributes$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/shape/Shape$StrokeAttributes$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/shape/Shape$StrokeAttributes$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/shape/Shape$StrokeAttributes$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/shape/Shape$StyleableProperties$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/shape/Shape$StyleableProperties$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/shape/Shape$StyleableProperties$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/shape/Shape$StyleableProperties$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/shape/Shape$StyleableProperties$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/shape/Shape$StyleableProperties$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/shape/Shape$StyleableProperties$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/shape/Shape$StyleableProperties$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/shape/Shape$StyleableProperties$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/shape/Shape$StyleableProperties$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/shape/Shape$StyleableProperties$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/shape/Shape$StyleableProperties$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/shape/Shape$StyleableProperties$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/shape/Shape$StyleableProperties$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/shape/Shape$StyleableProperties$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/shape/Shape$StyleableProperties$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/shape/Shape$StyleableProperties$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/shape/Shape$StyleableProperties$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/javafx/scene/shape/Shape$StyleableProperties$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/javafx/scene/shape/Shape$StyleableProperties$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dependency-cache/dependencies.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/dependency-cache/dependencies.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dependency-cache/native-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/build/dependency-cache/native-dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/glass/linux/libglass.so" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/glass/linux/libglass.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/graphics.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/graphics.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/prism/linux/libprism_common.so" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/prism/linux/libprism_common.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/native/glass/linux/glass_tray.obj" beforeDir="false" afterPath="$PROJECT_DIR$/build/native/glass/linux/glass_tray.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/native/prism/linux/NativePiscesRasterizer.obj" beforeDir="false" afterPath="$PROJECT_DIR$/build/native/prism/linux/NativePiscesRasterizer.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sun/glass/ui/gtk/com_sun_glass_ui_gtk_GtkTray.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sun/javafx/css/StyleManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sun/javafx/css/StyleManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sun/javafx/font/PrismFontFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sun/javafx/font/PrismFontFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sun/javafx/font/PrismFontLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sun/javafx/font/PrismFontLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sun/javafx/font/directwrite/DWRITE_GLYPH_RUN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sun/javafx/font/directwrite/DWRITE_GLYPH_RUN.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sun/javafx/geom/transform/Affine3D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sun/javafx/geom/transform/Affine3D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sun/openpisces/Renderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sun/openpisces/Renderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sun/openpisces/TransformingPathConsumer2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sun/openpisces/TransformingPathConsumer2D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sun/pisces/AbstractSurface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sun/pisces/AbstractSurface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sun/pisces/PiscesRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sun/pisces/PiscesRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sun/prism/d3d/D3DResourceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sun/prism/d3d/D3DResourceFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sun/prism/es2/ES2ResourceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sun/prism/es2/ES2ResourceFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sun/prism/impl/shape/NativePiscesRasterizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sun/prism/impl/shape/NativePiscesRasterizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sun/prism/impl/shape/OpenPiscesPrismUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sun/prism/impl/shape/OpenPiscesPrismUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sun/prism/impl/shape/OpenPiscesRasterizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sun/prism/impl/shape/OpenPiscesRasterizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sun/prism/impl/shape/ShapeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sun/prism/impl/shape/ShapeUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sun/prism/j2d/J2DFontFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sun/prism/j2d/J2DPipeline.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sun/prism/j2d/J2DPresentable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sun/prism/j2d/J2DPrismGraphics.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sun/prism/j2d/J2DRTTexture.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sun/prism/j2d/J2DResourceFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sun/prism/j2d/J2DTexture.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sun/prism/j2d/J2DTexturePool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sun/prism/j2d/PrismPrintGraphics.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sun/prism/j2d/PrismPrintPipeline.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sun/prism/j2d/paint/MultipleGradientPaint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sun/prism/j2d/paint/MultipleGradientPaintContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sun/prism/j2d/paint/RadialGradientPaint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sun/prism/j2d/paint/RadialGradientPaintContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sun/prism/j2d/print/J2DPrinter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sun/prism/j2d/print/J2DPrinterJob.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sun/scenario/effect/impl/hw/d3d/D3DShaderSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sun/scenario/effect/impl/hw/d3d/D3DShaderSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/native-font/directwrite.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/native-font/directwrite.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/native-glass/gtk/glass_tray.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/native-glass/gtk/glass_tray.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/native-glass/gtk/glass_tray.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/native-glass/gtk/glass_tray.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/native-glass/win/GlassAccessible.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/native-glass/win/GlassAccessible.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/native-glass/win/GlassTray.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/native-glass/win/GlassTray.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/native-glass/win/GlassTray.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/native-glass/win/GlassTray.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/native-prism-sw/JJavaSurface.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/native-prism-sw/JJavaSurface.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/native-prism/NativePiscesRasterizer.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/native-prism/NativePiscesRasterizer.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jmx/build/libs/jmx.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../jmx/build/libs/jmx.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media/build/libs/media.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../media/build/libs/media.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../swing/build/libs/swing.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../swing/build/libs/swing.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../swt/build/libs/swt.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../swt/build/libs/swt.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/build/libs/web.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../web/build/libs/web.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/system/build/libs/systemTests.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../../tests/system/build/libs/systemTests.jar" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,59 +255,84 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/glass/ui/gtk/GtkTray.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/openpisces/TransformingPathConsumer2D.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
+            <state relative-caret-position="1819">
+              <caret line="135" column="33" selection-start-line="135" selection-start-column="33" selection-end-line="135" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/glass/ui/win/WinTray.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/prism/impl/shape/OpenPiscesPrismUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+            <state relative-caret-position="1411">
+              <caret line="116" column="54" selection-start-line="116" selection-start-column="54" selection-end-line="116" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/prism/impl/shape/OpenPiscesRasterizer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="48" column="27" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/openpisces/Renderer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6375">
+              <caret line="407" column="52" selection-start-line="407" selection-start-column="52" selection-end-line="407" selection-end-column="52" />
               <folding>
-                <element signature="e#659#660#0" expanded="true" />
-                <element signature="e#713#714#0" expanded="true" />
+                <element signature="e#14818#14819#0" expanded="true" />
+                <element signature="e#14869#14870#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/native-glass/win/GlassTray.h">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/prism/impl/ps/BaseShaderGraphics.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="183">
+              <caret line="453" column="5" lean-forward="true" selection-start-line="453" selection-start-column="5" selection-end-line="453" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/native-glass/win/GlassApplication.cpp">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/javafx/geom/transform/AffineBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+            <state relative-caret-position="1887">
+              <caret line="140" column="25" selection-start-line="140" selection-start-column="25" selection-end-line="140" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/native-glass/win/GlassTray.cpp">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/prism/impl/BaseGraphics.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+            <state relative-caret-position="306">
+              <caret line="60" column="48" selection-start-line="60" selection-start-column="48" selection-end-line="60" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#5245#5246#0" expanded="true" />
+                <element signature="e#5279#5280#0" expanded="true" />
+                <element signature="e#9709#9710#0" expanded="true" />
+                <element signature="e#9745#9746#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/native-glass/gtk/glass_tray.cpp">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/javafx/sg/prism/NGNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="29" />
+            <state relative-caret-position="32317">
+              <caret line="1975" column="31" selection-start-line="1975" selection-start-column="31" selection-end-line="1975" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -84,67 +348,125 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>JNIEXPORT</find>
+      <find>concatTran</find>
+      <find>concat s</find>
+      <find>setClip</find>
+      <find>drawTexture</find>
+      <find>translate</find>
+      <find>Reactange</find>
+      <find>Rectangle</find>
+      <find>scale</find>
+      <find>MASK TEXTURE, Pixel format:</find>
+      <find>HeapByteBuffer</find>
+      <find>Heap</find>
+      <find>getMaskD</find>
+      <find>Throw</find>
+      <find>boundsArray</find>
+      <find>CheckLen</find>
+      <find>shader</find>
+      <find>FillPgram</find>
+      <find>new alphas</find>
+      <find>dirtyRegion</find>
+      <find>GetArrayLength</find>
+      <find>copyList</find>
+      <find>getArrayLength</find>
+      <find>nCreateProgram</find>
+      <find>createSto</find>
       <find>native</find>
-      <find>uris_to_java</find>
-      <find>GetStringFie</find>
-      <find>tray_loop</find>
-      <find>JNI_OnLoad</find>
-      <find>gtk_</find>
-      <find>iostream</find>
-      <find>malloc</find>
-      <find>string.h</find>
-      <find>context</find>
-      <find>g_mid</find>
-      <find>(*env)</find>
-      <find>tray_init</find>
-      <find>GetMessage</find>
-      <find>_tray_wnd_proc</find>
-      <find>_tray_menu</find>
-      <find>windows.</find>
-      <find>#include &lt;windows.h&gt;</find>
-      <find>hWnd</find>
-      <find>window.h</find>
-      <find>_tray_menu_cb</find>
-      <find>windows.h</find>
+      <find>fill(</find>
+      <find>toString</find>
+      <find>reset</find>
+      <find>moveTo</find>
+      <find>new Throwable().printStackTrace();</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/main/native-prism-es2/windows</dir>
+      <dir>$PROJECT_DIR$/src/main/native-glass/win</dir>
+      <dir>$PROJECT_DIR$/src/main/native-prism</dir>
+      <dir>$PROJECT_DIR$/src/main/native-prism-es2</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/sun/glass/ui/Window.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sun/javafx/tk/quantum/GlassViewEventHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sun/javafx/tk/quantum/WindowStage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sun/javafx/tk/quantum/QuantumToolkit.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sun/glass/ui/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sun/glass/utils/NativeLibLoader.java" />
         <option value="$PROJECT_DIR$/src/main/native-glass/gtk/tray.h" />
         <option value="$PROJECT_DIR$/src/main/java/com/sun/glass/ui/lens/LensApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sun/glass/ui/gtk/GtkApplication.java" />
         <option value="$PROJECT_DIR$/src/main/native-glass/gtk/GlassApplication.cpp" />
-        <option value="$PROJECT_DIR$/src/main/native-glass/gtk/glass_tray.cpp" />
-        <option value="$PROJECT_DIR$/src/main/native-glass/gtk/glass_tray.h" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sun/glass/ui/gtk/GtkTray.java" />
         <option value="$PROJECT_DIR$/src/main/native-glass/gtk/glass_general.cpp" />
         <option value="$PROJECT_DIR$/src/main/native-glass/win/glass_tray.h" />
         <option value="$PROJECT_DIR$/src/main/java/com/sun/glass/ui/win/WinTray.java" />
         <option value="$PROJECT_DIR$/src/main/native-glass/win/glass_tray.cpp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sun/glass/ui/Tray.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sun/glass/ui/gtk/GtkTray.java" />
+        <option value="$PROJECT_DIR$/src/main/native-glass/gtk/glass_tray.h" />
+        <option value="$PROJECT_DIR$/src/main/native-glass/gtk/glass_tray.cpp" />
         <option value="$PROJECT_DIR$/src/main/native-glass/win/GlassTray.h" />
         <option value="$PROJECT_DIR$/src/main/native-glass/win/GlassTray.cpp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sun/javafx/font/PrismFontLoader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sun/javafx/font/PrismFontFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sun/prism/d3d/D3DResourceFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sun/scenario/effect/impl/hw/d3d/D3DShaderSource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sun/javafx/font/directwrite/DWRITE_GLYPH_RUN.java" />
+        <option value="$PROJECT_DIR$/src/main/native-font/directwrite.cpp" />
+        <option value="$PROJECT_DIR$/src/main/native-prism-sw/JJavaSurface.c" />
+        <option value="$PROJECT_DIR$/src/main/native-prism-sw/JNIUtil.c" />
+        <option value="$PROJECT_DIR$/src/main/native-prism-sw/JPiscesRenderer.c" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sun/javafx/css/StyleManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sun/javafx/font/t2k/T2KFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sun/javafx/font/t2k/T2KFontStrike.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sun/javafx/font/t2k/T2KGlyph.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sun/javafx/font/t2k/T2KStrikeDisposer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sun/javafx/font/t2k/ICUGlyphLayout.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sun/javafx/font/PrismFontFile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sun/javafx/font/t2k/T2KFontFile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sun/prism/j2d/J2DRTTexture.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sun/pisces/AbstractSurface.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sun/pisces/PiscesRenderer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sun/prism/sw/SWGraphics.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sun/prism/impl/shape/NativePiscesRasterizer.java" />
+        <option value="$PROJECT_DIR$/src/main/native-prism/NativePiscesRasterizer.c" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sun/prism/impl/PrismSettings.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sun/prism/impl/BaseGraphics.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sun/prism/impl/shape/ShapeUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sun/prism/impl/shape/OpenPiscesRasterizer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sun/prism/es2/ES2Graphics.java" />
+        <option value="$PROJECT_DIR$/src/main/native-glass/win/GlassAccessible.cpp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sun/javafx/sg/prism/NGRegion.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sun/openpisces/TransformingPathConsumer2D.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sun/openpisces/Renderer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sun/prism/es2/ES2ResourceFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sun/prism/impl/shape/OpenPiscesPrismUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sun/javafx/geom/transform/Affine3D.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="240" />
-    <option name="y" value="129" />
-    <option name="width" value="1440" />
-    <option name="height" value="780" />
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1920" />
+    <option name="width" value="1366" />
+    <option name="height" value="726" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -156,6 +478,50 @@
             <path>
               <item name="graphics" type="b2602c69:ProjectViewProjectNode" />
               <item name="graphics" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graphics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graphics" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="generated-src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graphics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graphics" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="generated-src" type="462c0819:PsiDirectoryNode" />
+              <item name="jsl-prism" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graphics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graphics" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="generated-src" type="462c0819:PsiDirectoryNode" />
+              <item name="jsl-prism" type="462c0819:PsiDirectoryNode" />
+              <item name="prism" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graphics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graphics" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="generated-src" type="462c0819:PsiDirectoryNode" />
+              <item name="jsl-prism" type="462c0819:PsiDirectoryNode" />
+              <item name="prism" type="462c0819:PsiDirectoryNode" />
+              <item name="hlsl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graphics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graphics" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="generated-src" type="462c0819:PsiDirectoryNode" />
+              <item name="jsl-prism" type="462c0819:PsiDirectoryNode" />
+              <item name="prism" type="462c0819:PsiDirectoryNode" />
+              <item name="glsl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graphics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graphics" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -186,35 +552,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="sun" type="462c0819:PsiDirectoryNode" />
-              <item name="glass" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graphics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graphics" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sun" type="462c0819:PsiDirectoryNode" />
-              <item name="glass" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graphics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graphics" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sun" type="462c0819:PsiDirectoryNode" />
-              <item name="glass" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-              <item name="win" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graphics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graphics" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="javafx" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -222,32 +559,26 @@
               <item name="graphics" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="native-glass" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sun" type="462c0819:PsiDirectoryNode" />
+              <item name="javafx" type="462c0819:PsiDirectoryNode" />
+              <item name="scene" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="graphics" type="b2602c69:ProjectViewProjectNode" />
               <item name="graphics" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="native-glass" type="462c0819:PsiDirectoryNode" />
-              <item name="gtk" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graphics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graphics" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="native-glass" type="462c0819:PsiDirectoryNode" />
-              <item name="win" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/native-glass/win" />
@@ -259,6 +590,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/sun/javafx/font/t2k" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/native-glass/win" />
       <recent name="$PROJECT_DIR$/src/main/native-glass/gtk" />
@@ -300,12 +634,30 @@
       <workItem from="1564719459018" duration="70000" />
       <workItem from="1564719867567" duration="558000" />
       <workItem from="1564809002793" duration="240000" />
-      <workItem from="1565141559673" duration="3583000" />
+      <workItem from="1565141559673" duration="4694000" />
+      <workItem from="1565154011497" duration="24000" />
+      <workItem from="1565166434585" duration="5354000" />
+      <workItem from="1565175282198" duration="134000" />
+      <workItem from="1565178413282" duration="31000" />
+      <workItem from="1565179551815" duration="614000" />
+      <workItem from="1565184026887" duration="12000" />
+      <workItem from="1565188270368" duration="1665000" />
+      <workItem from="1565255872117" duration="1119000" />
+      <workItem from="1565268474353" duration="1970000" />
+      <workItem from="1565272075853" duration="4575000" />
+      <workItem from="1565316358013" duration="15833000" />
+      <workItem from="1565361667555" duration="6344000" />
+      <workItem from="1565410009451" duration="3076000" />
+      <workItem from="1565414636172" duration="7746000" />
+      <workItem from="1565522442144" duration="1145000" />
+      <workItem from="1565532783824" duration="5061000" />
+      <workItem from="1565572777712" duration="42519000" />
+      <workItem from="1565622978791" duration="751000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30649000" />
+    <option name="totallyTimeSpent" value="129733000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -317,9 +669,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1038" extended-state="6" />
+    <frame x="1920" y="0" width="1366" height="726" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2675906" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29954615" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -327,7 +679,7 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32858709" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32890365" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -336,14 +688,14 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.34135666" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49924356" visible="true" weight="0.5357737" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50075644" side_tool="true" weight="0.5374376" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.32942432" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
@@ -357,328 +709,425 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.h" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jrt:///usr/lib/jvm/java-11-openjdk-amd64!/java.base/java/util/function/Supplier.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/prism/sw/SWMaskTexture.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        <state relative-caret-position="380">
+          <caret line="57" column="21" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/javafx/tk/quantum/QuantumRenderer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="80" column="8" selection-start-line="80" selection-start-column="8" selection-end-line="80" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/javafx/tk/quantum/QuantumClipboard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3502">
-          <caret line="286" column="39" selection-start-line="286" selection-start-column="39" selection-end-line="286" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/javafx/tk/quantum/GlassViewEventHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20791">
-          <caret line="1283" column="9" selection-start-line="1283" selection-start-column="9" selection-end-line="1283" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jrt:///usr/lib/jvm/java-11-openjdk-amd64!/java.base/java/io/File.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/javafx/tk/quantum/WindowStage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="871" column="26" selection-start-line="871" selection-start-column="26" selection-end-line="871" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jrt:///usr/lib/jvm/java-11-openjdk-amd64!/java.base/java/lang/Boolean.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="75" column="26" selection-start-line="75" selection-start-column="26" selection-end-line="75" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jrt:///usr/lib/jvm/java-11-openjdk-amd64!/java.base/java/lang/System.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="318" column="32" selection-start-line="318" selection-start-column="32" selection-end-line="318" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/native-glass/gtk/glass_dnd.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-714" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/native-glass/monocle/Monocle.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/native-prism/Curve.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-364" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/native-prism/AlphaConsumer.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="18" lean-forward="true" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/native-glass/win/Utils.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-612" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/native-prism/tray.h" />
-    <entry file="file://$PROJECT_DIR$/src/main/native-glass/win/common.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/native-glass/win/common.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-415" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/native-glass/mac/common.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/native-prism/Renderer.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-867" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/native-glass/gtk/GlassWindow.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-255" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/glass/ui/Robot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/glass/ui/gtk/GtkRobot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-88">
-          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/glass/ui/Window.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/glass/ui/lens/LensApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1257">
-          <caret line="142" column="20" selection-start-line="142" selection-start-column="20" selection-end-line="142" selection-end-column="20" />
-          <folding>
-            <element signature="e#4379#4592#0" expanded="true" />
-            <element signature="e#4591#4592#0" expanded="true" />
-            <element signature="e#4648#4826#0" expanded="true" />
-            <element signature="e#4825#4826#0" expanded="true" />
-            <element signature="e#5205#5415#0" expanded="true" />
-            <element signature="e#5414#5415#0" expanded="true" />
-            <element signature="e#29754#29966#0" expanded="true" />
-            <element signature="e#29965#29966#0" expanded="true" />
-            <element signature="e#30054#30490#0" expanded="true" />
-            <element signature="e#30489#30490#0" expanded="true" />
-            <element signature="e#31660#32037#0" expanded="true" />
-            <element signature="e#32036#32037#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/glass/ui/lens/LensWindow.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/prism/sw/SWPaint.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+          <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/glass/ui/gtk/GtkWindow.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/prism/sw/SWPresentable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+        <state relative-caret-position="-106">
+          <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/native-glass/ios/GlassApplication.m">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/prism/sw/SWResourceFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-714" />
+        <state relative-caret-position="102">
+          <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/native-glass/gtk/tray.h" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/prism/es2/ES2Pipeline.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/javafx/geom/Rectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1919">
+          <caret line="139" column="11" selection-start-line="139" selection-start-column="11" selection-end-line="139" selection-end-column="11" />
+          <folding>
+            <element signature="e#6337#6338#0" expanded="true" />
+            <element signature="e#6369#6370#0" expanded="true" />
+            <element signature="e#8828#8829#0" expanded="true" />
+            <element signature="e#8882#8883#0" expanded="true" />
+            <element signature="e#9768#9769#0" expanded="true" />
+            <element signature="e#9812#9813#0" expanded="true" />
+            <element signature="e#25370#25371#0" expanded="true" />
+            <element signature="e#25422#25423#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/pisces/PiscesRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="71" column="35" lean-forward="true" selection-start-line="71" selection-start-column="35" selection-end-line="71" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/local/graalvm/19.1.0/src.zip!/java/nio/ByteBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="394" column="29" selection-start-line="394" selection-start-column="29" selection-end-line="394" selection-end-column="29" />
+          <folding>
+            <element signature="e#13366#13367#0" expanded="true" />
+            <element signature="e#13417#13418#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/native-prism/NativePiscesRasterizer.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="204" column="46" selection-start-line="204" selection-start-column="46" selection-end-line="204" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/native-prism-sw/JJavaSurface.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="68" column="33" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
+          <caret line="49" column="14" lean-forward="true" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/glass/utils/NativeLibLoader.java">
+    <entry file="file://$PROJECT_DIR$/build/generated-src/jsl-prism/com/sun/prism/shader/DrawEllipse_ImagePattern_Loader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="82" column="25" selection-start-line="82" selection-start-column="25" selection-end-line="82" selection-end-column="25" />
+        <state relative-caret-position="408">
+          <caret line="52" column="70" lean-forward="true" selection-start-line="52" selection-start-column="70" selection-end-line="52" selection-end-column="70" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/javafx/tk/quantum/QuantumToolkit.java">
+    <entry file="jar:///usr/local/graalvm/19.1.0/src.zip!/java/lang/Class.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="308" column="13" selection-start-line="308" selection-start-column="13" selection-end-line="308" selection-end-column="13" />
+        <state relative-caret-position="295">
+          <caret line="2215" column="24" selection-start-line="2215" selection-start-column="24" selection-end-line="2215" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/glass/ui/Application.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/prism/sw/SWPipeline.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1184">
-          <caret line="165" column="41" lean-forward="true" selection-start-line="165" selection-start-column="41" selection-end-line="165" selection-end-column="41" />
+        <state relative-caret-position="680">
+          <caret line="75" column="42" lean-forward="true" selection-start-line="75" selection-start-column="42" selection-end-line="75" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/native-glass/gtk/glass_window.h">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/prism/sw/SWTexture.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5245" />
+        <state relative-caret-position="393">
+          <caret line="174" lean-forward="true" selection-start-line="174" selection-end-line="174" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/glass/ui/gtk/GtkApplication.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/prism/sw/SWGraphics.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4259">
-          <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
+        <state relative-caret-position="374">
+          <caret line="80" column="46" selection-start-line="80" selection-start-column="46" selection-end-line="80" selection-end-column="46" />
+          <folding>
+            <element signature="e#8541#8542#0" expanded="true" />
+            <element signature="e#8628#8629#0" expanded="true" />
+            <element signature="e#8701#8702#0" expanded="true" />
+            <element signature="e#8983#8984#0" expanded="true" />
+            <element signature="e#9269#9270#0" expanded="true" />
+            <element signature="e#9344#9345#0" expanded="true" />
+            <element signature="e#9413#9414#0" expanded="true" />
+            <element signature="e#9498#9499#0" expanded="true" />
+            <element signature="e#9581#9582#0" expanded="true" />
+            <element signature="e#10870#10871#0" expanded="true" />
+            <element signature="e#36375#36376#0" expanded="true" />
+            <element signature="e#37151#37152#0" expanded="true" />
+            <element signature="e#37310#37311#0" expanded="true" />
+            <element signature="e#37399#37400#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/prism/impl/shape/NativePiscesRasterizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="53" column="46" lean-forward="true" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/prism/ps/ShaderFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="23" column="3" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/prism/impl/shape/MaskData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="632">
+          <caret line="81" column="27" selection-start-line="81" selection-start-column="27" selection-end-line="81" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/prism/sw/SWContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="59" column="44" selection-start-line="59" selection-start-column="44" selection-end-line="59" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/local/graalvm/19.1.0/src.zip!/java/util/ArrayList.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/prism/es2/ES2SwapChain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="106" column="13" selection-start-line="106" selection-start-column="13" selection-end-line="106" selection-end-column="13" />
+        <state relative-caret-position="472">
+          <caret line="265" column="5" lean-forward="true" selection-start-line="265" selection-start-column="5" selection-end-line="265" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/native-glass/gtk/glass_window.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/native-glass/gtk/GlassApplication.cpp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/prism/impl/PrismSettings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="155" selection-start-line="155" selection-end-line="155" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/native-glass/gtk/glass_general.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="389" column="63" lean-forward="true" selection-start-line="389" selection-start-column="63" selection-end-line="389" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/native-glass/win/BaseWnd.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-714" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/native-glass/win/GlassApplication.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="28" column="20" lean-forward="true" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/native-glass/win/_GlassTray.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="633">
-          <caret line="153" column="45" lean-forward="true" selection-start-line="153" selection-start-column="45" selection-end-line="153" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/native-glass/gtk/glass_tray.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="24" column="18" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/glass/ui/gtk/GtkTray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/glass/ui/win/WinTray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+        <state relative-caret-position="253">
+          <caret line="316" column="10" lean-forward="true" selection-start-line="316" selection-start-column="10" selection-end-line="316" selection-end-column="10" />
           <folding>
-            <element signature="e#659#660#0" expanded="true" />
-            <element signature="e#713#714#0" expanded="true" />
+            <element signature="e#0#19493#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/javafx/geom/DirtyRegionContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="132" column="22" selection-start-line="132" selection-start-column="22" selection-end-line="132" selection-end-column="22" />
+          <folding>
+            <element signature="e#4328#4329#0" expanded="true" />
+            <element signature="e#4370#4371#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/javafx/tk/quantum/ViewPainter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="305" column="79" selection-start-line="305" selection-start-column="79" selection-end-line="305" selection-end-column="79" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/native-font/directwrite.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+        <state relative-caret-position="33507">
+          <caret line="1971" column="21" selection-start-line="1971" selection-start-column="21" selection-end-line="1971" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/native-glass/win/BaseWnd.cpp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/prism/es2/ES2Graphics.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="66" column="8" lean-forward="true" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
+        <state relative-caret-position="459">
+          <caret line="78" column="52" lean-forward="true" selection-start-line="78" selection-start-column="52" selection-end-line="78" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/native-glass/win/GlassApplication.cpp">
+    <entry file="file://$PROJECT_DIR$/src/main/native-glass/win/GlassAccessible.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+        <state relative-caret-position="459">
+          <caret line="156" column="42" lean-forward="true" selection-start-line="156" selection-start-column="42" selection-end-line="156" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/native-glass/gtk/glass_tray.cpp">
+    <entry file="file://$PROJECT_DIR$/src/main/native-prism-es2/windows/WinGLContext.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="45" column="20" lean-forward="true" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/prism/es2/ES2Shader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="144" column="33" selection-start-line="144" selection-start-column="33" selection-end-line="144" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/prism/es2/GLContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="361" column="15" selection-start-line="361" selection-start-column="15" selection-end-line="361" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/native-prism-es2/GLContext.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="545" column="70" lean-forward="true" selection-start-line="545" selection-start-column="70" selection-end-line="545" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/local/graalvm/19.1.0/src.zip!/java/lang/Float.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="54" column="61" selection-start-line="54" selection-start-column="61" selection-end-line="54" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/javafx/geom/PathIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="67" column="28" selection-start-line="67" selection-start-column="28" selection-end-line="67" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/openpisces/Curve.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/javafx/geom/RectBounds.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/prism/impl/shape/ShapeRasterizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/javafx/geom/Shape.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="91">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="29" />
+          <caret line="73" column="29" selection-start-line="73" selection-start-column="29" selection-end-line="73" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/native-glass/win/GlassTray.cpp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/javafx/geom/Path2D.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        <state relative-caret-position="542">
+          <caret line="610" column="8" selection-start-line="610" selection-start-column="8" selection-end-line="610" selection-end-column="8" />
+          <folding>
+            <element signature="e#63854#63855#0" expanded="true" />
+            <element signature="e#63888#63889#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/native-glass/win/GlassTray.h">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/javafx/geom/PathConsumer2D.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="102">
+          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/javafx/sg/prism/NGRegion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="601">
+          <caret line="840" column="17" selection-start-line="840" selection-start-column="17" selection-end-line="840" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/prism/Graphics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/javafx/geom/transform/BaseTransform.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1373">
+          <caret line="529" column="24" lean-forward="true" selection-start-line="529" selection-start-column="24" selection-end-line="529" selection-end-column="24" />
+          <folding>
+            <element signature="e#22008#22009#0" expanded="true" />
+            <element signature="e#22082#22083#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/prism/es2/ES2ResourceFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/prism/impl/shape/ShapeUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="45" column="36" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/openpisces/TransformingPathConsumer2D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1819">
+          <caret line="135" column="33" selection-start-line="135" selection-start-column="33" selection-end-line="135" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/prism/impl/shape/OpenPiscesPrismUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1411">
+          <caret line="116" column="54" selection-start-line="116" selection-start-column="54" selection-end-line="116" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/prism/impl/shape/OpenPiscesRasterizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="48" column="27" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/openpisces/Renderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6375">
+          <caret line="407" column="52" selection-start-line="407" selection-start-column="52" selection-end-line="407" selection-end-column="52" />
+          <folding>
+            <element signature="e#14818#14819#0" expanded="true" />
+            <element signature="e#14869#14870#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/javafx/geom/transform/AffineBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1887">
+          <caret line="140" column="25" selection-start-line="140" selection-start-column="25" selection-end-line="140" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/prism/impl/BaseGraphics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="60" column="48" selection-start-line="60" selection-start-column="48" selection-end-line="60" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5245#5246#0" expanded="true" />
+            <element signature="e#5279#5280#0" expanded="true" />
+            <element signature="e#9709#9710#0" expanded="true" />
+            <element signature="e#9745#9746#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/javafx/sg/prism/NGNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32317">
+          <caret line="1975" column="31" selection-start-line="1975" selection-start-column="31" selection-end-line="1975" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/javafx/geom/transform/Affine3D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="298" column="28" lean-forward="true" selection-start-line="298" selection-start-column="28" selection-end-line="298" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/prism/impl/ps/BaseShaderGraphics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="453" column="5" lean-forward="true" selection-start-line="453" selection-start-column="5" selection-end-line="453" selection-end-column="5" />
         </state>
       </provider>
     </entry>

@@ -44,10 +44,7 @@ import javafx.stage.Window;
 import sun.util.logging.PlatformLogger;
 import sun.util.logging.PlatformLogger.Level;
 
-import java.io.FileNotFoundException;
-import java.io.FilePermission;
-import java.io.IOException;
-import java.io.InputStream;
+import java.io.*;
 import java.lang.ref.Reference;
 import java.lang.ref.WeakReference;
 import java.net.MalformedURLException;
@@ -844,23 +841,23 @@ final public class StyleManager {
 
         try {
 
-            URI uri =  new URI(str.trim());
+            URI uri = new URI(str.trim());
 
             // if url doesn't have a scheme
             if (uri.isAbsolute() == false) {
 
-                final ClassLoader contextClassLoader = Thread.currentThread().getContextClassLoader();
-                final String path = uri.getPath();
+//                final ClassLoader contextClassLoader = Thread.currentThread().getContextClassLoader();
+//                final String path = uri.getPath();
 
-                URL resource = null;
+//                URL resource = null;
 
-                if (path.startsWith("/")) {
-                    resource = contextClassLoader.getResource(path.substring(1));
-                } else {
-                    resource = contextClassLoader.getResource(path);
-                }
+//                if (path.startsWith("/")) {
+//                    resource = contextClassLoader.getResource(path.substring(1));
+//                } else {
+//                    resource = contextClassLoader.getResource(path);
+//                }
 
-                return resource;
+                return new File(str.trim()).toURI().toURL();
             }
 
             // else, url does have a scheme
