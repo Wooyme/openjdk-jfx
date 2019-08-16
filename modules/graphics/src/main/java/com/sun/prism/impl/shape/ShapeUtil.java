@@ -35,7 +35,6 @@ public class ShapeUtil {
 
     private static final ShapeRasterizer shapeRasterizer;
     static {
-        System.out.println("What are u fucking doing:"+PrismSettings.doNativePisces);
         if (PrismSettings.doNativePisces) {
             shapeRasterizer = new NativePiscesRasterizer();
         } else {

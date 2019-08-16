@@ -343,6 +343,8 @@ void convert(RECT from, RECT to, jfloat *pX, jfloat *pY)
 
 BOOL GlassScreen::FX2Win(jfloat* pX, jfloat* pY)
 {
+
+
     if (g_MonitorInfos.numInfos == 0) return FALSE;
     int monIndex = 0;
     jfloat distSq = distSqTo(g_MonitorInfos.pMonitorInfos[0].fxMonitor, *pX, *pY);

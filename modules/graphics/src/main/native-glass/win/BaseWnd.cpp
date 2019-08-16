@@ -28,6 +28,7 @@
 #include "BaseWnd.h"
 #include "GlassApplication.h"
 
+#include <iostream>
 
 //NOTE: it's not thread-safe
 unsigned int BaseWnd::sm_classNameCounter = 0;
@@ -111,6 +112,7 @@ HWND BaseWnd::Create(HWND hParent, int x, int y, int width, int height,
         }
         ::CreateWindowEx(dwExStyle, szClassName, lpWindowName,
                 dwStyle, x, y, width, height, hParent,
+                //dwStyle, CW_USEDEFAULT, CW_USEDEFAULT,width,height,hParent,
                 NULL, hInst, (void *)this);
 
         if (GetHWND() == NULL) {

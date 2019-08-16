@@ -373,10 +373,12 @@ JNIEXPORT void JNICALL Java_com_sun_glass_ui_win_WinApplication_initIDs
   (JNIEnv *env, jclass cls,
    jfloat overrideUIScale, jfloat overrideRenderScale, jfloat minDPIScale, jboolean forceIntegerRenderScale)
 {
-    GlassApplication::overrideUIScale = overrideUIScale;
-    GlassApplication::overrideRenderScale = overrideRenderScale;
-    GlassApplication::minDPIScale = minDPIScale;
-    GlassApplication::forceIntegerRenderScale = forceIntegerRenderScale;
+    //BUG: all bugs are about jfloat.
+
+    GlassApplication::overrideUIScale = 1.0;//overrideUIScale;
+    GlassApplication::overrideRenderScale = 1.0;//overrideRenderScale;
+    GlassApplication::minDPIScale = 1000000000;//minDPIScale; // The value seems not important because of setting overrideUIScale to 1
+    GlassApplication::forceIntegerRenderScale = 0.0;//forceIntegerRenderScale;
 
     javaIDs.Application.reportExceptionMID =
         env->GetStaticMethodID(cls, "reportException", "(Ljava/lang/Throwable;)V");

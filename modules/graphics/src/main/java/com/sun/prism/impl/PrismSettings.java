@@ -259,7 +259,6 @@ public final class PrismSettings {
             for (String s : tryOrder) {
                 System.out.print(s+" ");
             }
-            System.out.println("");
             String piscestype = (doNativePisces ? "native" : "java");
             System.out.println("Using " + piscestype + "-based Pisces rasterizer");
             printBooleanOption(dirtyOptsEnabled, "Using dirty region optimizations");

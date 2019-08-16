@@ -377,6 +377,7 @@ LRESULT GlassWindow::WindowProc(UINT msg, WPARAM wParam, LPARAM lParam)
                     m_state = Maximized;
                     break;
             }
+
             HandleViewSizeEvent(GetHWND(), msg, wParam, lParam);
             break;
 //        case WM_MOVING:
@@ -483,6 +484,7 @@ LRESULT GlassWindow::WindowProc(UINT msg, WPARAM wParam, LPARAM lParam)
 //            }
             break;
         case WM_PAINT:
+
             HandleViewPaintEvent(GetHWND(), msg, wParam, lParam);
             break;
         case WM_CONTEXTMENU:
@@ -1418,8 +1420,9 @@ JNIEXPORT void JNICALL Java_com_sun_glass_ui_win_WinWindow__1setAlpha
     }
     BYTE alpha;
     LEAVE_MAIN_THREAD_WITH_hWnd;
-
-    ARG(alpha) = F2B(alpha);
+    //BUG: alpha always 0 and ur window will disappear which confused me full week. FUCK
+    //ARG(alpha) = F2B(alpha);
+    ARG(alpha) = BYTE(255);
     PERFORM();
 }
 

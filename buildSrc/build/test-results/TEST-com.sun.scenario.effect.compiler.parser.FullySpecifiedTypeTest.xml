@@ -1,9 +1,9 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<testsuite name="com.sun.scenario.effect.compiler.parser.FullySpecifiedTypeTest" tests="3" failures="0" errors="0" timestamp="2019-08-07T09:51:07" hostname="wooyme" time="0.011">
+<testsuite name="com.sun.scenario.effect.compiler.parser.FullySpecifiedTypeTest" tests="3" failures="0" errors="0" timestamp="2019-08-13T14:45:19" hostname="wooyme" time="0.006">
   <properties/>
-  <testcase name="qualified" classname="com.sun.scenario.effect.compiler.parser.FullySpecifiedTypeTest" time="0.003"/>
-  <testcase name="unqualified" classname="com.sun.scenario.effect.compiler.parser.FullySpecifiedTypeTest" time="0.005"/>
-  <testcase name="notAFullySpecifiedType" classname="com.sun.scenario.effect.compiler.parser.FullySpecifiedTypeTest" time="0.0"/>
+  <testcase name="qualified" classname="com.sun.scenario.effect.compiler.parser.FullySpecifiedTypeTest" time="0.004"/>
+  <testcase name="unqualified" classname="com.sun.scenario.effect.compiler.parser.FullySpecifiedTypeTest" time="0.001"/>
+  <testcase name="notAFullySpecifiedType" classname="com.sun.scenario.effect.compiler.parser.FullySpecifiedTypeTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

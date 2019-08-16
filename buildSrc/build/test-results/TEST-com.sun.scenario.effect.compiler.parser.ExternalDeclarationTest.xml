@@ -1,12 +1,12 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<testsuite name="com.sun.scenario.effect.compiler.parser.ExternalDeclarationTest" tests="6" failures="0" errors="0" timestamp="2019-08-07T09:51:06" hostname="wooyme" time="0.011">
+<testsuite name="com.sun.scenario.effect.compiler.parser.ExternalDeclarationTest" tests="6" failures="0" errors="0" timestamp="2019-08-13T14:45:19" hostname="wooyme" time="0.013">
   <properties/>
   <testcase name="declaration" classname="com.sun.scenario.effect.compiler.parser.ExternalDeclarationTest" time="0.001"/>
-  <testcase name="funcDefNoParam" classname="com.sun.scenario.effect.compiler.parser.ExternalDeclarationTest" time="0.007"/>
+  <testcase name="funcDefNoParam" classname="com.sun.scenario.effect.compiler.parser.ExternalDeclarationTest" time="0.002"/>
   <testcase name="multiDeclaration" classname="com.sun.scenario.effect.compiler.parser.ExternalDeclarationTest" time="0.001"/>
-  <testcase name="notAnExtDecl" classname="com.sun.scenario.effect.compiler.parser.ExternalDeclarationTest" time="0.0"/>
-  <testcase name="funcDefTwoParam" classname="com.sun.scenario.effect.compiler.parser.ExternalDeclarationTest" time="0.0"/>
-  <testcase name="funcDefOneParam" classname="com.sun.scenario.effect.compiler.parser.ExternalDeclarationTest" time="0.0"/>
+  <testcase name="notAnExtDecl" classname="com.sun.scenario.effect.compiler.parser.ExternalDeclarationTest" time="0.001"/>
+  <testcase name="funcDefTwoParam" classname="com.sun.scenario.effect.compiler.parser.ExternalDeclarationTest" time="0.001"/>
+  <testcase name="funcDefOneParam" classname="com.sun.scenario.effect.compiler.parser.ExternalDeclarationTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

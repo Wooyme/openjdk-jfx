@@ -100,8 +100,6 @@ public class OpenPiscesRasterizer implements ShapeRasterizer {
         }
 
         Consumer consumer = savedConsumer;
-        if(consumer!=null)
-            System.out.println("W:"+w+" H:"+h+" Alpha:"+consumer.getAlphaLength());
         if (consumer == null || w * h > consumer.getAlphaLength()) {
             int csize = (w * h + 0xfff) & (~0xfff);
             savedConsumer = consumer = new Consumer(csize);

@@ -1,9 +1,9 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<testsuite name="com.sun.scenario.effect.compiler.parser.EqualityExprTest" tests="3" failures="0" errors="0" timestamp="2019-08-07T09:51:07" hostname="wooyme" time="0.007">
+<testsuite name="com.sun.scenario.effect.compiler.parser.EqualityExprTest" tests="3" failures="0" errors="0" timestamp="2019-08-13T14:45:19" hostname="wooyme" time="0.003">
   <properties/>
-  <testcase name="notAnEqualityExpression" classname="com.sun.scenario.effect.compiler.parser.EqualityExprTest" time="0.003"/>
+  <testcase name="notAnEqualityExpression" classname="com.sun.scenario.effect.compiler.parser.EqualityExprTest" time="0.001"/>
   <testcase name="oneEq" classname="com.sun.scenario.effect.compiler.parser.EqualityExprTest" time="0.001"/>
-  <testcase name="oneNotEq" classname="com.sun.scenario.effect.compiler.parser.EqualityExprTest" time="0.0"/>
+  <testcase name="oneNotEq" classname="com.sun.scenario.effect.compiler.parser.EqualityExprTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

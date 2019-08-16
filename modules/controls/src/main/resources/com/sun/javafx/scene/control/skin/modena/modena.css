@@ -400,7 +400,7 @@ is being used to size a border should also be in pixels.
        the cap height of the text. */
     -fx-bounds-type: logical_vertical_center;
     /* Enable LCD text rendering */
-    -fx-font-smoothing-type: lcd;
+    /*-fx-font-smoothing-type: lcd;*/
 }
 
 /* ====   BUTTON LIKE THINGS   ============================================== */

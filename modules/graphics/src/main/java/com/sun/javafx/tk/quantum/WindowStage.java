@@ -295,6 +295,7 @@ class WindowStage extends GlassStage {
         if (xSet || ySet) {
             Screen screen = platformWindow.getScreen();
             List<Screen> screens = Screen.getScreens();
+            screens.forEach(System.out::println);
             if (screens.size() > 1) {
                 float wx = xSet ? x : platformWindow.getX();
                 float wy = ySet ? y : platformWindow.getY();

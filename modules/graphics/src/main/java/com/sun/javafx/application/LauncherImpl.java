@@ -157,7 +157,6 @@ public class LauncherImpl {
     public static void launchApplication(final Class<? extends Application> appClass,
             final Class<? extends Preloader> preloaderClass,
             final String[] args) {
-
         if (launchCalled.getAndSet(true)) {
             throw new IllegalStateException("Application launch must not be called more than once");
         }

@@ -26,6 +26,7 @@ package com.sun.glass.ui;
 
 import java.security.AccessController;
 import java.security.PrivilegedAction;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
@@ -35,7 +36,6 @@ public final class Screen {
     // the list of attached screens provided by native.
     // screens[0] is the default/main Screen
     private static volatile List<Screen> screens = null ;
-
     // If dpiOverride is non-zero, use its value as screen DPI
     private static final int dpiOverride;
 
@@ -162,9 +162,11 @@ public final class Screen {
             this.resolutionX = resolutionX;
             this.resolutionY = resolutionY;
         }
-
-        this.uiScale = uiScale;
-        this.renderScale = renderScale;
+        //BUG: scale from native are always 0. U'd better force it to 1.0f.
+        //this.uiScale = uiScale;
+        //this.renderScale = renderScale;
+        this.uiScale = 1.0f;
+        this.renderScale = 1.0f;
     }
 
     /**
@@ -330,6 +332,10 @@ public final class Screen {
             throw new RuntimeException("Internal graphics failed to initialize");
         }
         screens = Collections.unmodifiableList(Arrays.asList(newScreens));
+//        Screen myScreen = new Screen(screens.get(0).ptr,32,0,0
+//                ,1366,768,0,0,1366,768,96,96,1,1);
+//        screens = new ArrayList<>();
+//        screens.add(myScreen);
     }
 
     @Override public String toString() {

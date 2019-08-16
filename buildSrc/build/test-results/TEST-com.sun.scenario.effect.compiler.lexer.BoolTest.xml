@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<testsuite name="com.sun.scenario.effect.compiler.lexer.BoolTest" tests="3" failures="0" errors="0" timestamp="2019-08-07T09:51:07" hostname="wooyme" time="0.004">
+<testsuite name="com.sun.scenario.effect.compiler.lexer.BoolTest" tests="3" failures="0" errors="0" timestamp="2019-08-13T14:45:19" hostname="wooyme" time="0.001">
   <properties/>
-  <testcase name="trueLit" classname="com.sun.scenario.effect.compiler.lexer.BoolTest" time="0.001"/>
+  <testcase name="trueLit" classname="com.sun.scenario.effect.compiler.lexer.BoolTest" time="0.0"/>
   <testcase name="falseLit" classname="com.sun.scenario.effect.compiler.lexer.BoolTest" time="0.0"/>
   <testcase name="notABool" classname="com.sun.scenario.effect.compiler.lexer.BoolTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>

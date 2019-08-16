@@ -1,9 +1,9 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<testsuite name="com.sun.scenario.effect.compiler.parser.SelectionStatementTest" tests="3" failures="0" errors="0" timestamp="2019-08-07T09:51:07" hostname="wooyme" time="0.011">
+<testsuite name="com.sun.scenario.effect.compiler.parser.SelectionStatementTest" tests="3" failures="0" errors="0" timestamp="2019-08-13T14:45:19" hostname="wooyme" time="0.013">
   <properties/>
-  <testcase name="ifOnly" classname="com.sun.scenario.effect.compiler.parser.SelectionStatementTest" time="0.001"/>
+  <testcase name="ifOnly" classname="com.sun.scenario.effect.compiler.parser.SelectionStatementTest" time="0.01"/>
   <testcase name="notASelect" classname="com.sun.scenario.effect.compiler.parser.SelectionStatementTest" time="0.001"/>
-  <testcase name="ifAndElse" classname="com.sun.scenario.effect.compiler.parser.SelectionStatementTest" time="0.004"/>
+  <testcase name="ifAndElse" classname="com.sun.scenario.effect.compiler.parser.SelectionStatementTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

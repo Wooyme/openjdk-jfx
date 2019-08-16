@@ -269,7 +269,8 @@ public abstract class Window {
         this.isDecorated = (this.styleMask & Window.TITLED) != 0;
 
         this.screen = screen != null ? screen : Screen.getMainScreen();
-
+        System.out.println("From Window:");
+        System.out.println(this.screen);
         this.ptr = _createWindow(owner != null ? owner.getNativeHandle() : 0L,
                 this.screen.getNativeScreen(), this.styleMask);
         if (this.ptr == 0L) {

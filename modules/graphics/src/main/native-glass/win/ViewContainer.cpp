@@ -211,6 +211,7 @@ void ViewContainer::NotifyViewSize(HWND hwnd)
 
 void ViewContainer::HandleViewPaintEvent(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam)
 {
+
     if (!GetGlassView()) {
         return;
     }

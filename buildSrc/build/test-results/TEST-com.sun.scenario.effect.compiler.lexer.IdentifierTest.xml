@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<testsuite name="com.sun.scenario.effect.compiler.lexer.IdentifierTest" tests="6" failures="0" errors="0" timestamp="2019-08-07T09:51:07" hostname="wooyme" time="0.005">
+<testsuite name="com.sun.scenario.effect.compiler.lexer.IdentifierTest" tests="6" failures="0" errors="0" timestamp="2019-08-13T14:45:19" hostname="wooyme" time="0.001">
   <properties/>
-  <testcase name="lettersAndDigits" classname="com.sun.scenario.effect.compiler.lexer.IdentifierTest" time="0.001"/>
+  <testcase name="lettersAndDigits" classname="com.sun.scenario.effect.compiler.lexer.IdentifierTest" time="0.0"/>
   <testcase name="lettersAndDigitsAndSymbols" classname="com.sun.scenario.effect.compiler.lexer.IdentifierTest" time="0.0"/>
   <testcase name="basic" classname="com.sun.scenario.effect.compiler.lexer.IdentifierTest" time="0.0"/>
   <testcase name="mixedCase" classname="com.sun.scenario.effect.compiler.lexer.IdentifierTest" time="0.0"/>

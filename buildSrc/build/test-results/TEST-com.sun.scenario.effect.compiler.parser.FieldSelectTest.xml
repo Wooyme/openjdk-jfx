@@ -1,22 +1,22 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<testsuite name="com.sun.scenario.effect.compiler.parser.FieldSelectTest" tests="16" failures="0" errors="0" timestamp="2019-08-07T09:51:07" hostname="wooyme" time="0.033">
+<testsuite name="com.sun.scenario.effect.compiler.parser.FieldSelectTest" tests="16" failures="0" errors="0" timestamp="2019-08-13T14:45:19" hostname="wooyme" time="0.035">
   <properties/>
-  <testcase name="tooManyVals" classname="com.sun.scenario.effect.compiler.parser.FieldSelectTest" time="0.003"/>
-  <testcase name="r" classname="com.sun.scenario.effect.compiler.parser.FieldSelectTest" time="0.0"/>
-  <testcase name="x" classname="com.sun.scenario.effect.compiler.parser.FieldSelectTest" time="0.001"/>
-  <testcase name="rg" classname="com.sun.scenario.effect.compiler.parser.FieldSelectTest" time="0.002"/>
-  <testcase name="xy" classname="com.sun.scenario.effect.compiler.parser.FieldSelectTest" time="0.001"/>
-  <testcase name="rgb" classname="com.sun.scenario.effect.compiler.parser.FieldSelectTest" time="0.002"/>
-  <testcase name="xyz" classname="com.sun.scenario.effect.compiler.parser.FieldSelectTest" time="0.0"/>
-  <testcase name="zzz" classname="com.sun.scenario.effect.compiler.parser.FieldSelectTest" time="0.002"/>
+  <testcase name="tooManyVals" classname="com.sun.scenario.effect.compiler.parser.FieldSelectTest" time="0.001"/>
+  <testcase name="r" classname="com.sun.scenario.effect.compiler.parser.FieldSelectTest" time="0.005"/>
+  <testcase name="x" classname="com.sun.scenario.effect.compiler.parser.FieldSelectTest" time="0.0"/>
+  <testcase name="rg" classname="com.sun.scenario.effect.compiler.parser.FieldSelectTest" time="0.0"/>
+  <testcase name="xy" classname="com.sun.scenario.effect.compiler.parser.FieldSelectTest" time="0.0"/>
+  <testcase name="rgb" classname="com.sun.scenario.effect.compiler.parser.FieldSelectTest" time="0.0"/>
+  <testcase name="xyz" classname="com.sun.scenario.effect.compiler.parser.FieldSelectTest" time="0.002"/>
+  <testcase name="zzz" classname="com.sun.scenario.effect.compiler.parser.FieldSelectTest" time="0.0"/>
   <testcase name="aaaa" classname="com.sun.scenario.effect.compiler.parser.FieldSelectTest" time="0.0"/>
-  <testcase name="abgr" classname="com.sun.scenario.effect.compiler.parser.FieldSelectTest" time="0.001"/>
+  <testcase name="abgr" classname="com.sun.scenario.effect.compiler.parser.FieldSelectTest" time="0.0"/>
   <testcase name="rgba" classname="com.sun.scenario.effect.compiler.parser.FieldSelectTest" time="0.0"/>
   <testcase name="wzyz" classname="com.sun.scenario.effect.compiler.parser.FieldSelectTest" time="0.0"/>
-  <testcase name="xyzw" classname="com.sun.scenario.effect.compiler.parser.FieldSelectTest" time="0.001"/>
-  <testcase name="notAFieldSelection1" classname="com.sun.scenario.effect.compiler.parser.FieldSelectTest" time="0.004"/>
+  <testcase name="xyzw" classname="com.sun.scenario.effect.compiler.parser.FieldSelectTest" time="0.0"/>
+  <testcase name="notAFieldSelection1" classname="com.sun.scenario.effect.compiler.parser.FieldSelectTest" time="0.0"/>
   <testcase name="notAFieldSelection2" classname="com.sun.scenario.effect.compiler.parser.FieldSelectTest" time="0.0"/>
-  <testcase name="mixedVals" classname="com.sun.scenario.effect.compiler.parser.FieldSelectTest" time="0.0"/>
+  <testcase name="mixedVals" classname="com.sun.scenario.effect.compiler.parser.FieldSelectTest" time="0.005"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

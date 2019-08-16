@@ -1,20 +1,20 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<testsuite name="com.sun.scenario.effect.compiler.parser.UnaryExprTest" tests="15" failures="0" errors="0" timestamp="2019-08-07T09:51:07" hostname="wooyme" time="0.035">
+<testsuite name="com.sun.scenario.effect.compiler.parser.UnaryExprTest" tests="15" failures="0" errors="0" timestamp="2019-08-13T14:45:19" hostname="wooyme" time="0.036">
   <properties/>
-  <testcase name="notAUnaryExpression" classname="com.sun.scenario.effect.compiler.parser.UnaryExprTest" time="0.005"/>
+  <testcase name="notAUnaryExpression" classname="com.sun.scenario.effect.compiler.parser.UnaryExprTest" time="0.001"/>
   <testcase name="preDecrement" classname="com.sun.scenario.effect.compiler.parser.UnaryExprTest" time="0.001"/>
-  <testcase name="postDecrement" classname="com.sun.scenario.effect.compiler.parser.UnaryExprTest" time="0.002"/>
-  <testcase name="positive" classname="com.sun.scenario.effect.compiler.parser.UnaryExprTest" time="0.001"/>
-  <testcase name="preIncrement" classname="com.sun.scenario.effect.compiler.parser.UnaryExprTest" time="0.001"/>
-  <testcase name="negative" classname="com.sun.scenario.effect.compiler.parser.UnaryExprTest" time="0.001"/>
+  <testcase name="postDecrement" classname="com.sun.scenario.effect.compiler.parser.UnaryExprTest" time="0.001"/>
+  <testcase name="positive" classname="com.sun.scenario.effect.compiler.parser.UnaryExprTest" time="0.01"/>
+  <testcase name="preIncrement" classname="com.sun.scenario.effect.compiler.parser.UnaryExprTest" time="0.002"/>
+  <testcase name="negative" classname="com.sun.scenario.effect.compiler.parser.UnaryExprTest" time="0.004"/>
   <testcase name="postIncrement" classname="com.sun.scenario.effect.compiler.parser.UnaryExprTest" time="0.0"/>
-  <testcase name="negated" classname="com.sun.scenario.effect.compiler.parser.UnaryExprTest" time="0.005"/>
-  <testcase name="variable" classname="com.sun.scenario.effect.compiler.parser.UnaryExprTest" time="0.001"/>
+  <testcase name="negated" classname="com.sun.scenario.effect.compiler.parser.UnaryExprTest" time="0.0"/>
+  <testcase name="variable" classname="com.sun.scenario.effect.compiler.parser.UnaryExprTest" time="0.0"/>
   <testcase name="notAPrimaryExpression" classname="com.sun.scenario.effect.compiler.parser.UnaryExprTest" time="0.001"/>
-  <testcase name="bracketted" classname="com.sun.scenario.effect.compiler.parser.UnaryExprTest" time="0.001"/>
+  <testcase name="bracketted" classname="com.sun.scenario.effect.compiler.parser.UnaryExprTest" time="0.0"/>
   <testcase name="boolLiteralF" classname="com.sun.scenario.effect.compiler.parser.UnaryExprTest" time="0.0"/>
-  <testcase name="boolLiteralT" classname="com.sun.scenario.effect.compiler.parser.UnaryExprTest" time="0.001"/>
-  <testcase name="intLiteral" classname="com.sun.scenario.effect.compiler.parser.UnaryExprTest" time="0.0"/>
+  <testcase name="boolLiteralT" classname="com.sun.scenario.effect.compiler.parser.UnaryExprTest" time="0.004"/>
+  <testcase name="intLiteral" classname="com.sun.scenario.effect.compiler.parser.UnaryExprTest" time="0.001"/>
   <testcase name="floatLiteral" classname="com.sun.scenario.effect.compiler.parser.UnaryExprTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
