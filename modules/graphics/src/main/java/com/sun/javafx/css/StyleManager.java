@@ -846,18 +846,18 @@ final public class StyleManager {
             // if url doesn't have a scheme
             if (uri.isAbsolute() == false) {
 
-//                final ClassLoader contextClassLoader = Thread.currentThread().getContextClassLoader();
-//                final String path = uri.getPath();
+                final ClassLoader contextClassLoader = Thread.currentThread().getContextClassLoader();
+                final String path = uri.getPath();
 
-//                URL resource = null;
+                URL resource = null;
 
-//                if (path.startsWith("/")) {
-//                    resource = contextClassLoader.getResource(path.substring(1));
-//                } else {
-//                    resource = contextClassLoader.getResource(path);
-//                }
-
-                return new File(str.trim()).toURI().toURL();
+                if (path.startsWith("/")) {
+                    resource = contextClassLoader.getResource(path.substring(1));
+                } else {
+                    resource = contextClassLoader.getResource(path);
+                }
+                return resource;
+                //return new File(str.trim()).toURI().toURL();
             }
 
             // else, url does have a scheme

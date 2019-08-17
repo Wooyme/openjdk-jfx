@@ -42,7 +42,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/native-glass/win/GlassApplication.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
+            <state relative-caret-position="6511">
               <caret line="383" column="56" selection-start-line="383" selection-start-column="56" selection-end-line="383" selection-end-column="56" />
             </state>
           </provider>
@@ -51,7 +51,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/native-glass/win/GlassScreen.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
+            <state relative-caret-position="9979">
               <caret line="587" column="5" selection-start-line="587" selection-start-column="5" selection-end-line="587" selection-end-column="5" />
             </state>
           </provider>
@@ -73,17 +73,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/native-glass/win/GlassWindow.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="1411" column="3" lean-forward="true" selection-start-line="1411" selection-start-column="3" selection-end-line="1411" selection-end-column="3" />
+            <state relative-caret-position="23987">
+              <caret line="1411" column="3" selection-start-line="1411" selection-start-column="3" selection-end-line="1411" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/native-glass/win/BaseWnd.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="277">
+              <caret line="117" column="32" lean-forward="true" selection-start-line="117" selection-start-column="32" selection-end-line="117" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/native-glass/win/BaseWnd.cpp">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/javafx/css/StyleManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />
+            <state relative-caret-position="192">
+              <caret line="1172" column="77" selection-start-line="1172" selection-start-column="77" selection-end-line="1172" selection-end-column="77" />
             </state>
           </provider>
         </entry>
@@ -379,11 +388,12 @@
       <workItem from="1565959104439" duration="8024000" />
       <workItem from="1565971750471" duration="1257000" />
       <workItem from="1565976118648" duration="300000" />
+      <workItem from="1566019717083" duration="241000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="195471000" />
+    <option name="totallyTimeSpent" value="195712000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -450,13 +460,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/prism/impl/ps/BaseShaderFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://JAVA/com.sun.glass.ui.Window">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -820,8 +823,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/native-glass/win/GlassApplication.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
+        <state relative-caret-position="6511">
           <caret line="383" column="56" selection-start-line="383" selection-start-column="56" selection-end-line="383" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/native-glass/win/GlassScreen.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9979">
+          <caret line="587" column="5" selection-start-line="587" selection-start-column="5" selection-end-line="587" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/glass/ui/Screen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2346">
+          <caret line="168" column="32" selection-start-line="168" selection-start-column="32" selection-end-line="168" selection-end-column="32" />
+          <folding>
+            <element signature="e#2297#2298#0" expanded="true" />
+            <element signature="e#2339#2340#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/native-glass/win/GlassWindow.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23987">
+          <caret line="1411" column="3" selection-start-line="1411" selection-start-column="3" selection-end-line="1411" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -842,35 +870,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/native-glass/win/GlassScreen.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="587" column="5" selection-start-line="587" selection-start-column="5" selection-end-line="587" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/glass/ui/Screen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2346">
-          <caret line="168" column="32" selection-start-line="168" selection-start-column="32" selection-end-line="168" selection-end-column="32" />
-          <folding>
-            <element signature="e#2297#2298#0" expanded="true" />
-            <element signature="e#2339#2340#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/native-glass/win/GlassWindow.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="1411" column="3" lean-forward="true" selection-start-line="1411" selection-start-column="3" selection-end-line="1411" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/native-glass/win/BaseWnd.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />
+        <state relative-caret-position="277">
+          <caret line="117" column="32" lean-forward="true" selection-start-line="117" selection-start-column="32" selection-end-line="117" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/javafx/css/StyleManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="1172" column="77" selection-start-line="1172" selection-start-column="77" selection-end-line="1172" selection-end-column="77" />
         </state>
       </provider>
     </entry>
